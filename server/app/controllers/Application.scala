@@ -1,4 +1,4 @@
-package com.effe.shopping.controllers
+package controllers
 
 import javax.inject._
 

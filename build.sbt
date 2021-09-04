@@ -10,8 +10,8 @@ lazy val server = (project in file("server")).settings(commonSettings).settings(
         "com.vmunier" %% "scalajs-scripts" % "1.2.0",
         "com.typesafe.play" %% "play-slick" % "5.0.0",
         "com.typesafe.play" %% "play-slick-evolutions" % "5.0.0",
-        "com.h2database" % "h2" % "1.4.200",
         "com.dripower" %% "play-circe" % "2814.2",
+        "com.postgresql" %% "postgresql" % "42.2.23",
         guice,
         "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % "test"
     ),
