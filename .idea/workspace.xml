@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21474194-7a4e-428a-89a7-6caf6be7adcc" name="Changes" comment="version 0.2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/postgresql-42.2.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/dao/ProductsDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/dao/ProductsDao.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/routes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/CartDaoSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/CartDaoSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/test/ProductDaoSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/server/test/ProductDaoSpec.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +161,7 @@
       <workItem from="1630771048384" duration="1108000" />
       <workItem from="1630772170153" duration="581000" />
       <workItem from="1630805125289" duration="3473000" />
-      <workItem from="1630890942612" duration="967000" />
+      <workItem from="1630890942612" duration="1809000" />
     </task>
     <task id="LOCAL-00001" summary="version 0.2">
       <created>1630771065915</created>
