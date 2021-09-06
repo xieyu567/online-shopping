@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21474194-7a4e-428a-89a7-6caf6be7adcc" name="Changes" comment="version 0.2">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/application.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +161,7 @@
       <workItem from="1630771048384" duration="1108000" />
       <workItem from="1630772170153" duration="581000" />
       <workItem from="1630805125289" duration="3473000" />
-      <workItem from="1630890942612" duration="3017000" />
+      <workItem from="1630890942612" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="version 0.2">
       <created>1630771065915</created>
