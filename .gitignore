@@ -9,4 +9,5 @@ project/plugins/project/
 .cache
 .lib/
 
-.idea/
+.idea
+.DS_Store
