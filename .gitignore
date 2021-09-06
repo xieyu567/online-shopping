@@ -9,4 +9,4 @@ project/plugins/project/
 .cache
 .lib/
 
-out/.idea
+.idea/
