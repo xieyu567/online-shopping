@@ -1,8 +1,12 @@
 # Project exclude paths
-/client/target/
-/project/project/target/
-/project/target/
-/server/target/
-/shared/.js/target/
-/shared/.jvm/target/
-/target/
+target/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+out/.idea
