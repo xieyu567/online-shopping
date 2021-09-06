@@ -11,6 +11,8 @@ lazy val server = (project in file("server")).settings(commonSettings).settings(
         "com.typesafe.play" %% "play-slick" % "5.0.0",
         "com.typesafe.play" %% "play-slick-evolutions" % "5.0.0",
         "com.dripower" %% "play-circe" % "2814.2",
+        "io.circe" %%% "circe-generic" % "0.14.1",
+        "io.circe" %%% "circe-parser" % "0.14.1",
         "com.h2database" % "h2" % "1.4.200",
         "org.postgresql" % "postgresql" % "42.2.23",
         guice,
@@ -24,9 +26,12 @@ lazy val server = (project in file("server")).settings(commonSettings).settings(
 lazy val client = (project in file("client")).settings(commonSettings).settings(
     scalaJSUseMainModuleInitializer := true,
     libraryDependencies ++= Seq(
-        "org.scala-js" %%% "scalajs-dom" % "1.2.0"
+        "org.scala-js" %%% "scalajs-dom" % "1.2.0",
+        "io.circe" %%% "circe-core" % "0.14.1",
+        "io.circe" %%% "circe-generic" % "0.14.1",
+        "io.circe" %%% "circe-parser" % "0.14.1",
     )
-).enablePlugins(ScalaJSPlugin, ScalaJSWeb)
+).enablePlugins(ScalaJSWeb)
     .dependsOn(sharedJs)
 
 lazy val shared = crossProject(JSPlatform, JVMPlatform)

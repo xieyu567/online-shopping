@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21474194-7a4e-428a-89a7-6caf6be7adcc" name="Changes" comment="version 0.2">
+      <change afterPath="$PROJECT_DIR$/server/app/controllers/WebServices.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/conf/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/test/ApiSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/online-shopping-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/online-shopping-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/dao/ProductsDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/dao/ProductsDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/conf/evolutions/default/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/evolutions/default/1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/routes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +74,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,7 +86,7 @@
       <recent name="$PROJECT_DIR$/server/conf/evolutions/postgresql" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.CartDaoSpec">
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="online-shopping_1186" />
       <method v="2">
@@ -87,55 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="server" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="ApplicationSpec" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CartDaoSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="server" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="CartDaoSpec" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductDaoSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="server" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="ProductDaoSpec" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="ScalaTest.CartDaoSpec" />
-        <item itemvalue="ScalaTest.ProductDaoSpec" />
-        <item itemvalue="ScalaTest.ApplicationSpec" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -159,7 +123,10 @@
       <workItem from="1630771048384" duration="1108000" />
       <workItem from="1630772170153" duration="581000" />
       <workItem from="1630805125289" duration="3473000" />
-      <workItem from="1630890942612" duration="4939000" />
+      <workItem from="1630890942612" duration="3537000" />
+      <workItem from="1630919986414" duration="444000" />
+      <workItem from="1630920442517" duration="1299000" />
+      <workItem from="1630929173379" duration="6765000" />
     </task>
     <task id="LOCAL-00001" summary="version 0.2">
       <created>1630771065915</created>

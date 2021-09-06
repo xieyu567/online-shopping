@@ -18,7 +18,7 @@ class ProductDao @Inject()(protected val dbConfigProvider: DatabaseConfigProvide
     def insert(product: Product): Future[Unit] =
         db.run(products insertOrUpdate product).map(_ => ())
 
-    private class ProductsTable(tag: Tag) extends Table[Product](tag, "products") {
+    private class ProductsTable(tag: Tag) extends Table[Product](tag, "PRODUCTS") {
         def name = column[String]("name")
 
         def code = column[String]("code")
@@ -60,7 +60,7 @@ class CartsDao @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)
 
     def all(): Future[Seq[Cart]] = db.run(carts.result)
 
-    private class CartsTable(tag: Tag) extends Table[Cart](tag, "cart") {
+    private class CartsTable(tag: Tag) extends Table[Cart](tag, "CART") {
         def user = column[String]("user")
 
         def productCode = column[String]("code")

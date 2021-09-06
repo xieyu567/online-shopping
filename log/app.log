@@ -1,0 +1,663 @@
+2021-09-06 21:14:21,257 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:14:21,780 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:14:21,788 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:14:22,785 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:14:22,789 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:14:59,569 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:15:00,083 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:15:00,091 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:15:01,147 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:15:01,149 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:19:38,002 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:19:38,504 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:19:38,512 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:19:39,519 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:19:39,521 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:21:00,493 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:21:00,962 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:21:00,970 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:21:01,964 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:21:01,966 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:24:49,425 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:24:49,929 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:24:49,937 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:24:55,145 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:24:55,147 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:25:02,055 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:25:02,250 [play-dev-mode-akka.actor.default-dispatcher-22] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:25:02,265 [play-dev-mode-akka.actor.default-dispatcher-22] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:25:02,544 [play-dev-mode-akka.actor.default-dispatcher-22] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:25:02,658 [play-dev-mode-akka.actor.default-dispatcher-22] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:25:03,260 [application-akka.actor.default-dispatcher-5] [play.api.http.DefaultHttpErrorHandler] ERROR - 
+
+! @7l1e48khh - Internal server error, for (POST) [/v1/products/add] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[SlickException: InsertOrUpdate is not supported on a table without PK.]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:230)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:430)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:422)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: slick.SlickException: InsertOrUpdate is not supported on a table without PK.
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$InsertOrUpdateAction.<init>(JdbcActionComponent.scala:560)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl.insertOrUpdate(JdbcActionComponent.scala:478)
+	at dao.ProductDao.insert(ProductsDao.scala:19)
+	at controllers.WebServices.$anonfun$addProduct$1(WebServices.scala:83)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:168)
+	at scala.util.Try$.apply(Try.scala:213)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:168)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:200)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:418)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+2021-09-06 21:25:59,028 [pool-7-thread-10] [play.api.internal.libs.concurrent.CoordinatedShutdownSupport$]  INFO - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2021-09-06 21:25:59,031 [pool-7-thread-10] [play.core.server.AkkaHttpServer]  INFO - Stopping Akka HTTP server...
+2021-09-06 21:25:59,037 [play-dev-mode-akka.actor.internal-dispatcher-35] [play.core.server.AkkaHttpServer]  INFO - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-09-06 21:25:59,053 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:25:59,061 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:25:59,085 [play-dev-mode-akka.actor.internal-dispatcher-33] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks
+2021-09-06 21:33:57,618 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:33:58,137 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:33:58,145 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:34:03,388 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:34:03,390 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:34:07,937 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:34:08,065 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:34:08,077 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:34:08,326 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:34:08,435 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:34:09,056 [application-akka.actor.default-dispatcher-8] [play.api.http.DefaultHttpErrorHandler] ERROR - 
+
+! @7l1e5dm1k - Internal server error, for (POST) [/v1/products/add] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[SlickException: InsertOrUpdate is not supported on a table without PK.]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:230)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:430)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:422)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: slick.SlickException: InsertOrUpdate is not supported on a table without PK.
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$InsertOrUpdateAction.<init>(JdbcActionComponent.scala:560)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl.insertOrUpdate(JdbcActionComponent.scala:478)
+	at dao.ProductDao.insert(ProductsDao.scala:19)
+	at controllers.WebServices.$anonfun$addProduct$1(WebServices.scala:83)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:168)
+	at scala.util.Try$.apply(Try.scala:213)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:168)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:200)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:418)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+2021-09-06 21:38:10,885 [pool-7-thread-7] [play.api.internal.libs.concurrent.CoordinatedShutdownSupport$]  INFO - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2021-09-06 21:38:10,887 [pool-7-thread-7] [play.core.server.AkkaHttpServer]  INFO - Stopping Akka HTTP server...
+2021-09-06 21:38:10,891 [play-dev-mode-akka.actor.internal-dispatcher-22] [play.core.server.AkkaHttpServer]  INFO - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-09-06 21:38:10,907 [application-akka.actor.default-dispatcher-12] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:38:10,915 [application-akka.actor.default-dispatcher-12] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:38:10,938 [play-dev-mode-akka.actor.internal-dispatcher-24] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks
+2021-09-06 21:38:47,219 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:38:47,364 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:38:47,375 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:38:47,593 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:38:47,691 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:38:48,214 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:38:48,227 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:38:48,417 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:38:48,452 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:38:48,454 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:38:48,467 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:38:48,480 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:38:48,890 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:38:48,897 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:38:49,017 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:38:49,039 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:38:49,041 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:38:49,048 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:38:49,055 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:39:06,876 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:39:07,375 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:39:07,383 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:39:08,456 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:39:08,458 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:39:08,567 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:39:08,588 [play-dev-mode-akka.actor.default-dispatcher-14] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:39:08,589 [play-dev-mode-akka.actor.default-dispatcher-14] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:39:08,596 [play-dev-mode-akka.actor.default-dispatcher-14] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:39:08,603 [play-dev-mode-akka.actor.default-dispatcher-14] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:39:08,972 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:39:08,974 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:39:09,090 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:39:09,113 [play-dev-mode-akka.actor.default-dispatcher-14] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:39:09,115 [play-dev-mode-akka.actor.default-dispatcher-14] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:39:09,121 [play-dev-mode-akka.actor.default-dispatcher-14] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:39:09,129 [play-dev-mode-akka.actor.default-dispatcher-14] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:39:09,253 [application-akka.actor.default-dispatcher-6] [controllers.WebServices]  INFO - User 'me' is asking for the list of product in the cart
+2021-09-06 21:39:09,480 [application-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:39:09,481 [application-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:39:09,548 [scala-execution-context-global-410] [controllers.WebServices$$anonfun$1] ERROR - Error while Writing in the database
+java.lang.IllegalStateException: Cannot initialize ExecutionContext; AsyncExecutor already shut down
+	at slick.util.AsyncExecutor$$anon$1.executionContext$lzycompute(AsyncExecutor.scala:69)
+	at slick.util.AsyncExecutor$$anon$1.executionContext(AsyncExecutor.scala:67)
+	at slick.util.AsyncExecutor$$anon$1.executionContext(AsyncExecutor.scala:51)
+	at slick.jdbc.JdbcBackend$DatabaseDef.synchronousExecutionContext(JdbcBackend.scala:62)
+	at slick.basic.BasicBackend$DatabaseDef.runSynchronousDatabaseAction(BasicBackend.scala:265)
+	at slick.basic.BasicBackend$DatabaseDef.runSynchronousDatabaseAction$(BasicBackend.scala:263)
+	at slick.jdbc.JdbcBackend$DatabaseDef.runSynchronousDatabaseAction(JdbcBackend.scala:37)
+	at slick.basic.BasicBackend$DatabaseDef.slick$basic$BasicBackend$DatabaseDef$$runInContextInline(BasicBackend.scala:242)
+	at slick.basic.BasicBackend$DatabaseDef.runInContextSafe(BasicBackend.scala:148)
+	at slick.basic.BasicBackend$DatabaseDef.runInContext(BasicBackend.scala:142)
+	at slick.basic.BasicBackend$DatabaseDef.runInContext$(BasicBackend.scala:141)
+	at slick.jdbc.JdbcBackend$DatabaseDef.runInContext(JdbcBackend.scala:37)
+	at slick.basic.BasicBackend$DatabaseDef.runInternal(BasicBackend.scala:77)
+	at slick.basic.BasicBackend$DatabaseDef.runInternal$(BasicBackend.scala:76)
+	at slick.jdbc.JdbcBackend$DatabaseDef.runInternal(JdbcBackend.scala:37)
+	at slick.basic.BasicBackend$DatabaseDef.run(BasicBackend.scala:74)
+	at slick.basic.BasicBackend$DatabaseDef.run$(BasicBackend.scala:74)
+	at slick.jdbc.JdbcBackend$DatabaseDef.run(JdbcBackend.scala:37)
+	at dao.CartsDao.insert(ProductsDao.scala:46)
+	at controllers.WebServices.$anonfun$addCartProduct$1(WebServices.scala:54)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:168)
+	at scala.util.Try$.apply(Try.scala:213)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:168)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:199)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:417)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2021-09-06 21:39:09,571 [application-akka.actor.default-dispatcher-7] [play.api.http.DefaultHttpErrorHandler] ERROR - 
+
+! @7l1e64og3 - Internal server error, for (POST) [/v1/products/add] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[SlickException: InsertOrUpdate is not supported on a table without PK.]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:230)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:430)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:422)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: slick.SlickException: InsertOrUpdate is not supported on a table without PK.
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$InsertOrUpdateAction.<init>(JdbcActionComponent.scala:560)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl.insertOrUpdate(JdbcActionComponent.scala:478)
+	at dao.ProductDao.insert(ProductsDao.scala:19)
+	at controllers.WebServices.$anonfun$addProduct$1(WebServices.scala:83)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:168)
+	at scala.util.Try$.apply(Try.scala:213)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:168)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:200)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:418)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+2021-09-06 21:39:09,661 [scala-execution-context-global-410] [controllers.WebServices$$anonfun$1] ERROR - Error while Writing in the database
+java.lang.IllegalStateException: Cannot initialize ExecutionContext; AsyncExecutor already shut down
+	at slick.util.AsyncExecutor$$anon$1.executionContext$lzycompute(AsyncExecutor.scala:69)
+	at slick.util.AsyncExecutor$$anon$1.executionContext(AsyncExecutor.scala:67)
+	at slick.util.AsyncExecutor$$anon$1.executionContext(AsyncExecutor.scala:51)
+	at slick.jdbc.JdbcBackend$DatabaseDef.synchronousExecutionContext(JdbcBackend.scala:62)
+	at slick.basic.BasicBackend$DatabaseDef.runSynchronousDatabaseAction(BasicBackend.scala:265)
+	at slick.basic.BasicBackend$DatabaseDef.runSynchronousDatabaseAction$(BasicBackend.scala:263)
+	at slick.jdbc.JdbcBackend$DatabaseDef.runSynchronousDatabaseAction(JdbcBackend.scala:37)
+	at slick.basic.BasicBackend$DatabaseDef.slick$basic$BasicBackend$DatabaseDef$$runInContextInline(BasicBackend.scala:242)
+	at slick.basic.BasicBackend$DatabaseDef.runInContextSafe(BasicBackend.scala:148)
+	at slick.basic.BasicBackend$DatabaseDef.runInContext(BasicBackend.scala:142)
+	at slick.basic.BasicBackend$DatabaseDef.runInContext$(BasicBackend.scala:141)
+	at slick.jdbc.JdbcBackend$DatabaseDef.runInContext(JdbcBackend.scala:37)
+	at slick.basic.BasicBackend$DatabaseDef.runInternal(BasicBackend.scala:77)
+	at slick.basic.BasicBackend$DatabaseDef.runInternal$(BasicBackend.scala:76)
+	at slick.jdbc.JdbcBackend$DatabaseDef.runInternal(JdbcBackend.scala:37)
+	at slick.basic.BasicBackend$DatabaseDef.run(BasicBackend.scala:74)
+	at slick.basic.BasicBackend$DatabaseDef.run$(BasicBackend.scala:74)
+	at slick.jdbc.JdbcBackend$DatabaseDef.run(JdbcBackend.scala:37)
+	at dao.CartsDao.all(ProductsDao.scala:61)
+	at controllers.WebServices.$anonfun$listCartProducts$1(WebServices.scala:33)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:168)
+	at scala.util.Try$.apply(Try.scala:213)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:168)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:199)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:417)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2021-09-06 21:39:09,667 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:39:09,694 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:39:09,695 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:39:09,697 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:39:09,697 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:39:09,704 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:39:09,711 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:39:09,732 [application-akka.actor.default-dispatcher-5] [controllers.WebServices]  INFO - User 'me' is asking to delete the product 'ALD1' from the cart
+2021-09-06 21:39:09,747 [scala-execution-context-global-410] [controllers.WebServices$$anonfun$1] ERROR - Error while Writing in the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "cart" not found; SQL statement:
+insert into "cart" ("user","code","qty")  values (?,?,?) [42102-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7628)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7599)
+	at org.h2.command.Parser.parseInsert(Parser.java:1747)
+	at org.h2.command.Parser.parsePrepared(Parser.java:954)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:311)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement(JdbcBackend.scala:375)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement$(JdbcBackend.scala:365)
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement(JdbcBackend.scala:424)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement$(JdbcBackend.scala:420)
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl.preparedInsert(JdbcActionComponent.scala:511)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$SingleInsertAction.run(JdbcActionComponent.scala:517)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:28)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:25)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.liftedTree1$1(BasicBackend.scala:276)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.run(BasicBackend.scala:276)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-06 21:39:09,756 [scala-execution-context-global-410] [controllers.WebServices$$anonfun$1] ERROR - Error while Writing in the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "cart" not found; SQL statement:
+delete from "cart" where ("cart"."user" = 'me') and ("cart"."code" = 'ALD1') [42102-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7628)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7599)
+	at org.h2.command.Parser.readSimpleTableFilter(Parser.java:1350)
+	at org.h2.command.Parser.parseDelete(Parser.java:1377)
+	at org.h2.command.Parser.parsePrepared(Parser.java:914)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:311)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement(JdbcBackend.scala:375)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement$(JdbcBackend.scala:365)
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement(JdbcBackend.scala:424)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement$(JdbcBackend.scala:420)
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcActionComponent$DeleteActionExtensionMethodsImpl$$anon$4.run(JdbcActionComponent.scala:267)
+	at slick.jdbc.JdbcActionComponent$DeleteActionExtensionMethodsImpl$$anon$4.run(JdbcActionComponent.scala:266)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:28)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:25)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.liftedTree1$1(BasicBackend.scala:276)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.run(BasicBackend.scala:276)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-06 21:40:46,142 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:40:46,639 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:40:46,647 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:40:51,826 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:40:51,829 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:40:51,907 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:40:51,908 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:40:52,000 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:40:52,024 [play-dev-mode-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:40:52,026 [play-dev-mode-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:40:52,032 [play-dev-mode-akka.actor.default-dispatcher-8] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:40:52,038 [play-dev-mode-akka.actor.default-dispatcher-8] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:40:52,076 [application-akka.actor.default-dispatcher-9] [play.api.http.DefaultHttpErrorHandler] ERROR - 
+
+! @7l1e6ak6h - Internal server error, for (POST) [/v1/products/add] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[SlickException: InsertOrUpdate is not supported on a table without PK.]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:230)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:430)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:422)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: slick.SlickException: InsertOrUpdate is not supported on a table without PK.
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$InsertOrUpdateAction.<init>(JdbcActionComponent.scala:560)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl.insertOrUpdate(JdbcActionComponent.scala:478)
+	at dao.ProductDao.insert(ProductsDao.scala:19)
+	at controllers.WebServices.$anonfun$addProduct$1(WebServices.scala:83)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:168)
+	at scala.util.Try$.apply(Try.scala:213)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:168)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:200)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:418)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+2021-09-06 21:43:05,383 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:43:05,873 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:43:05,882 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:43:07,954 [application-akka.actor.default-dispatcher-13] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:43:07,956 [application-akka.actor.default-dispatcher-13] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:43:08,055 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:43:08,076 [play-dev-mode-akka.actor.default-dispatcher-17] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:43:08,078 [play-dev-mode-akka.actor.default-dispatcher-17] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:43:08,083 [play-dev-mode-akka.actor.default-dispatcher-17] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:43:08,087 [play-dev-mode-akka.actor.default-dispatcher-17] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:43:08,121 [application-akka.actor.default-dispatcher-7] [play.api.http.DefaultHttpErrorHandler] ERROR - 
+
+! @7l1e6idd4 - Internal server error, for (POST) [/v1/products/add] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[SlickException: InsertOrUpdate is not supported on a table without PK.]]
+	at play.api.http.HttpErrorHandlerExceptions$.$anonfun$convertToPlayException$2(HttpErrorHandler.scala:381)
+	at scala.Option.map(Option.scala:230)
+	at play.api.http.HttpErrorHandlerExceptions$.convertToPlayException(HttpErrorHandler.scala:380)
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:373)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:264)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:430)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:422)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:63)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:100)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:100)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:49)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: slick.SlickException: InsertOrUpdate is not supported on a table without PK.
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$InsertOrUpdateAction.<init>(JdbcActionComponent.scala:560)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl.insertOrUpdate(JdbcActionComponent.scala:478)
+	at dao.ProductDao.insert(ProductsDao.scala:19)
+	at controllers.WebServices.$anonfun$addProduct$1(WebServices.scala:83)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:441)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:439)
+	at play.api.mvc.ActionBuilder$$anon$9.apply(Action.scala:379)
+	at play.api.mvc.Action.$anonfun$apply$4(Action.scala:82)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:168)
+	at scala.util.Try$.apply(Try.scala:213)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:168)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:200)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:418)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+2021-09-06 21:43:08,401 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:43:08,402 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:43:08,497 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:43:08,518 [play-dev-mode-akka.actor.default-dispatcher-35] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:43:08,520 [play-dev-mode-akka.actor.default-dispatcher-35] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:43:08,528 [play-dev-mode-akka.actor.default-dispatcher-35] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:43:08,534 [play-dev-mode-akka.actor.default-dispatcher-35] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:43:08,558 [application-akka.actor.default-dispatcher-5] [controllers.WebServices]  INFO - User 'me' is asking to delete the product 'ALD1' from the cart
+2021-09-06 21:43:08,566 [scala-execution-context-global-622] [controllers.WebServices$$anonfun$1] ERROR - Error while Writing in the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "user" not found; SQL statement:
+insert into "CART" ("user","code","qty")  values (?,?,?) [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.command.Parser.parseColumn(Parser.java:1450)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1435)
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1804)
+	at org.h2.command.Parser.parseInsert(Parser.java:1749)
+	at org.h2.command.Parser.parsePrepared(Parser.java:954)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:311)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement(JdbcBackend.scala:375)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement$(JdbcBackend.scala:365)
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement(JdbcBackend.scala:424)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement$(JdbcBackend.scala:420)
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl.preparedInsert(JdbcActionComponent.scala:511)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$SingleInsertAction.run(JdbcActionComponent.scala:517)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:28)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:25)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.liftedTree1$1(BasicBackend.scala:276)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.run(BasicBackend.scala:276)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-06 21:43:08,567 [scala-execution-context-global-623] [controllers.WebServices$$anonfun$1] ERROR - Error while Writing in the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "user" not found; SQL statement:
+insert into "CART" ("user","code","qty")  values (?,?,?) [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.command.Parser.parseColumn(Parser.java:1450)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1435)
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1804)
+	at org.h2.command.Parser.parseInsert(Parser.java:1749)
+	at org.h2.command.Parser.parsePrepared(Parser.java:954)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:311)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement(JdbcBackend.scala:375)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement$(JdbcBackend.scala:365)
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement(JdbcBackend.scala:424)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement$(JdbcBackend.scala:420)
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl.preparedInsert(JdbcActionComponent.scala:511)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$SingleInsertAction.run(JdbcActionComponent.scala:517)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:28)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:25)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.liftedTree1$1(BasicBackend.scala:276)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.run(BasicBackend.scala:276)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-06 21:43:08,572 [scala-execution-context-global-623] [controllers.WebServices$$anonfun$1] ERROR - Error while Writing in the database
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "CART.user" not found; SQL statement:
+delete from "CART" where ("CART"."user" = 'me') and ("CART"."code" = 'ALD1') [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:190)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:135)
+	at org.h2.command.dml.Delete.prepare(Delete.java:184)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:311)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement(JdbcBackend.scala:375)
+	at slick.jdbc.JdbcBackend$SessionDef.prepareStatement$(JdbcBackend.scala:365)
+	at slick.jdbc.JdbcBackend$BaseSession.prepareStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement(JdbcBackend.scala:424)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedStatement$(JdbcBackend.scala:420)
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedStatement(JdbcBackend.scala:489)
+	at slick.jdbc.JdbcActionComponent$DeleteActionExtensionMethodsImpl$$anon$4.run(JdbcActionComponent.scala:267)
+	at slick.jdbc.JdbcActionComponent$DeleteActionExtensionMethodsImpl$$anon$4.run(JdbcActionComponent.scala:266)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:28)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:25)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.liftedTree1$1(BasicBackend.scala:276)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$3.run(BasicBackend.scala:276)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-06 21:43:08,799 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:43:08,804 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:43:08,908 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:43:08,909 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-06 21:43:09,012 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:43:09,035 [play-dev-mode-akka.actor.default-dispatcher-17] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:43:09,036 [play-dev-mode-akka.actor.default-dispatcher-17] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:43:09,041 [play-dev-mode-akka.actor.default-dispatcher-17] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-06 21:43:09,046 [play-dev-mode-akka.actor.default-dispatcher-17] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-06 21:44:33,211 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-06 21:44:33,672 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-06 21:44:33,680 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-06 21:44:34,261 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-06 21:44:34,264 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
