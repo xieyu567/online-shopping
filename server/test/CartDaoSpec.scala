@@ -1,4 +1,4 @@
-import dao.CartDao
+import dao.CartsDao
 import models.{Cart, ProductInCart}
 import org.scalatest.RecoverMethods.recoverToSucceededIf
 import org.scalatest.concurrent.ScalaFutures
@@ -13,15 +13,15 @@ import scala.concurrent.ExecutionContext.Implicits.global
 
 class CartDaoSpec extends PlaySpec with ScalaFutures with GuiceOneAppPerSuite {
     "CartDao" must {
-        val app2dao = Application.instanceCache[CartDao]
+        val app2dao = Application.instanceCache[CartsDao]
 
         "be empty on database creation" in {
-            val dao: CartDao = app2dao(app)
+            val dao: CartsDao = app2dao(app)
             dao.all().futureValue shouldBe empty
         }
 
         "accept to add new cart" in {
-            val dao: CartDao = app2dao(app)
+            val dao: CartsDao = app2dao(app)
             val user = "userAdd"
 
             val expected = Set(
@@ -42,7 +42,7 @@ class CartDaoSpec extends PlaySpec with ScalaFutures with GuiceOneAppPerSuite {
         }
 
         "error thrown when adding a cart with same user and productCode" in {
-            val dao: CartDao = app2dao(app)
+            val dao: CartsDao = app2dao(app)
             val user = "userAdd"
             val expected = Set(
                 Cart(user, "ALD1", 1),
@@ -61,7 +61,7 @@ class CartDaoSpec extends PlaySpec with ScalaFutures with GuiceOneAppPerSuite {
         }
 
         "accept to remove a product from a cart" in {
-            val dao: CartDao = app2dao(app)
+            val dao: CartsDao = app2dao(app)
             val user = "userRmv"
             val initial = Vector(
                 Cart(user, "ALD1", 1),
@@ -76,7 +76,7 @@ class CartDaoSpec extends PlaySpec with ScalaFutures with GuiceOneAppPerSuite {
         }
 
         "accept to update quantities of an item in a cart" in {
-            val dao: CartDao = app2dao(app)
+            val dao: CartsDao = app2dao(app)
             val user = "userUpd"
             val inital = Vector(Cart(user, "ALD1", 1))
             val expected = Vector(Cart(user, "ALD1", 5))

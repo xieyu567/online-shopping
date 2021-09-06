@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: org.scala-js:scalajs-test-interface_2.12:1.7.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-js/scalajs-test-interface_2.12/1.7.0/scalajs-test-interface_2.12-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-js/scalajs-test-interface_2.12/1.7.0/scalajs-test-interface_2.12-1.7.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-js/scalajs-test-interface_2.12/1.7.0/scalajs-test-interface_2.12-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

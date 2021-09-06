@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="sbt 1" modules="online-shopping,online-shopping_1186,sharedJVM" />
+    <profile name="sbt 2" modules="sharedJS">
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-js/scalajs-compiler_2.12.14/1.7.0/scalajs-compiler_2.12.14-1.7.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="client">
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/home/effe/IdeaProjects/online-shopping/client/src/main/scala/-&gt;../scala/6e56be/" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/coursier/v1/https/repo.huaweicloud.com/repository/maven/org/scala-js/scalajs-compiler_2.12.14/1.7.0/scalajs-compiler_2.12.14-1.7.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 4" modules="server">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+      </parameters>
+    </profile>
+  </component>
+</project>
