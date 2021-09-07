@@ -4,20 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21474194-7a4e-428a-89a7-6caf6be7adcc" name="Changes" comment="version 0.2">
-      <change afterPath="$PROJECT_DIR$/server/app/controllers/WebServices.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/conf/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test/ApiSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/client.iml" afterDir="false" />
+    <list default="true" id="21474194-7a4e-428a-89a7-6caf6be7adcc" name="Changes" comment="version 0.3">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d8e38cf-5f58-49fe-a9c2-e0e7b72eab1e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d8e38cf-5f58-49fe-a9c2-e0e7b72eab1e/storage_v2/_src_/database/effe.IHUvAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d8e38cf-5f58-49fe-a9c2-e0e7b72eab1e/storage_v2/_src_/database/effe.IHUvAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d8e38cf-5f58-49fe-a9c2-e0e7b72eab1e/storage_v2/_src_/database/effe.IHUvAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d8e38cf-5f58-49fe-a9c2-e0e7b72eab1e/storage_v2/_src_/database/effe.IHUvAA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_11_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_11_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_11_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_11_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_11_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_collection_compat_2_12_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/online-shopping-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/online-shopping-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/online-shopping-sources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/online-shopping-sources.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/dao/ProductsDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/dao/ProductsDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/controllers/WebServices.scala" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/controllers/WebServices.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/conf/evolutions/default/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/evolutions/default/1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/server/conf/routes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,30 +70,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;h2" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/" value="PostgreSQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/" value="H2&#10;PostgreSQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/postgresql-42.2.23.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/conf/evolutions/h2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/conf/evolutions/h2" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/conf/evolutions/postgresql" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/server/conf/evolutions/default" />
+      <recent name="$PROJECT_DIR$/server/conf/evolutions/postgres" />
+      <recent name="$PROJECT_DIR$/server/conf/evolutions" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="ScalaTest.ProductDaoSpec">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="online-shopping_1186" />
       <method v="2">
@@ -100,6 +112,104 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="server" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="ApiSpec" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiSpec.The API should add a product in the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="server" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="ApiSpec" />
+      <option name="testName" value="The API should add a product in the cart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiSpec.The API should delete a product from the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="server" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="ApiSpec" />
+      <option name="testName" value="The API should delete a product from the cart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiSpec.The API should update a product quantity in the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="server" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="ApiSpec" />
+      <option name="testName" value="The API should update a product quantity in the cart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductDaoSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="server" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="ProductDaoSpec" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="$PROJECT_DIR$/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="$PROJECT_DIR$/server/conf/swagger.yml" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.ProductDaoSpec" />
+        <item itemvalue="ScalaTest.ApiSpec.The API should add a product in the cart" />
+        <item itemvalue="ScalaTest.ApiSpec.The API should delete a product from the cart" />
+        <item itemvalue="ScalaTest.ApiSpec.The API should update a product quantity in the cart" />
+        <item itemvalue="ScalaTest.ApiSpec" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,7 +236,23 @@
       <workItem from="1630890942612" duration="3537000" />
       <workItem from="1630919986414" duration="444000" />
       <workItem from="1630920442517" duration="1299000" />
-      <workItem from="1630929173379" duration="6765000" />
+      <workItem from="1630929173379" duration="11956000" />
+      <workItem from="1630972146628" duration="3367000" />
+      <workItem from="1630975658571" duration="7000" />
+      <workItem from="1630975676984" duration="398000" />
+      <workItem from="1630976085722" duration="476000" />
+      <workItem from="1630976575460" duration="658000" />
+      <workItem from="1630977244119" duration="1531000" />
+      <workItem from="1630982896808" duration="1244000" />
+      <workItem from="1630984151484" duration="553000" />
+      <workItem from="1630984716343" duration="5330000" />
+      <workItem from="1630996898657" duration="4003000" />
+      <workItem from="1631001249405" duration="2063000" />
+      <workItem from="1631003334474" duration="340000" />
+      <workItem from="1631003926906" duration="2148000" />
+      <workItem from="1631006087230" duration="720000" />
+      <workItem from="1631006826747" duration="987000" />
+      <workItem from="1631007824679" duration="5848000" />
     </task>
     <task id="LOCAL-00001" summary="version 0.2">
       <created>1630771065915</created>
@@ -156,7 +282,28 @@
       <option name="project" value="LOCAL" />
       <updated>1630897378192</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="version 0.3">
+      <created>1630988823240</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630988823240</updated>
+    </task>
+    <task id="LOCAL-00006" summary="version 0.3">
+      <created>1631003344772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631003344772</updated>
+    </task>
+    <task id="LOCAL-00007" summary="version 0.3">
+      <created>1631006868083</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631006868083</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +336,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 0.1" />
     <MESSAGE value="version 0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.2" />
+    <MESSAGE value="version 0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

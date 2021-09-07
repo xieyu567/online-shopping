@@ -41,7 +41,11 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
         }
     }
 
-    def deleteCartProduct(id: String): Action[AnyContent] = Action.async { request =>
+    @ApiOperation(value = "Delete a product from the cart", consumes = "text/plain")
+    @ApiResponses(Array(new ApiResponse(code = 401, message = "unauthorized, please login before to proceed"),
+        new ApiResponse(code = 500, message = "Internal server error, database error")))
+    def deleteCartProduct(@ApiParam(name = "id", value = "The product code", required = true) id: String): Action[AnyContent] =
+        Action.async { request =>
         val userOption = request.session.get("user")
         userOption match {
             case Some(user) =>
@@ -57,7 +61,8 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
         new ApiResponse(code = 400, message = "Cannot insert duplicates in the database"),
         new ApiResponse(code = 401, message = "unauthorized, please login before to proceed"),
         new ApiResponse(code = 500, message = "Internal server error, database error")))
-    def addCartProduct(id: String, quantity: String): Action[AnyContent] =
+    def addCartProduct(@ApiParam(name = "id", value = "The product code", required = true) id: String,
+                       @ApiParam(name = "quantity", value = "The quantity to add", required = true) quantity: String): Action[AnyContent] =
         Action.async { request =>
             val user = request.session.get("user")
             user match {
@@ -68,7 +73,12 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
             }
         }
 
-    def updateCartProduct(id: String, quantity: String): Action[AnyContent] = Action.async { request =>
+    @ApiOperation(value = "Update a product quantity in the cart", consumes = "text/plain")
+    @ApiResponses(Array(new ApiResponse(code = 200, message = "Product added in the cart"),
+        new ApiResponse(code = 500, message = "Internal server error, database error")))
+    def updateCartProduct(@ApiParam(name = "id", value = "The product code", required = true, example = "ALD1") id: String,
+                          @ApiParam(name = "quantity", value = "The quantity to update", required = true) quantity: String): Action[AnyContent] =
+        Action.async { request =>
         val user = request.session.get("user")
         user match {
             case Some(user) =>
