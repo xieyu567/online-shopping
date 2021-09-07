@@ -85,7 +85,6 @@ class ApiSpec extends PlaySpec with ScalaFutures with GuiceOneAppPerSuite {
 
             val response = wsClient.url(productsInCartURL)
                 .addCookies(defaultCookie).get().futureValue
-            println(response)
             response.status mustBe 200
             response.body mustNot include("ALD1")
         }
@@ -104,7 +103,7 @@ class ApiSpec extends PlaySpec with ScalaFutures with GuiceOneAppPerSuite {
 
             val response = wsClient.url(productsInCartURL)
                 .addCookies(defaultCookie).get().futureValue
-            println(response)
+            println(response.body)
             response.status mustBe 200
             response.body must include(productID)
             response.body must include(newQuantity.toString)

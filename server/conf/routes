@@ -5,11 +5,6 @@
 # Home page
 GET           /                                          controllers.Application.index
 
-GET           /assets/*file                              controllers.Assets.versioned(path="/public", file: Asset)
-
-### NoDocs ###
-GET           /docs/swagger-ui/*file                     controllers.Assets.at(path:String="/public/lib/swagger-ui", file:String)
-
 # Product API
 GET           /v1/products                               controllers.WebServices.listProduct()
 POST          /v1/products/add                           controllers.WebServices.addProduct()
@@ -22,3 +17,8 @@ PUT           /v1/cart/products/:id/quantity/:qty        controllers.WebServices
 
 # Login
 POST          /v1/login                                  controllers.WebServices.login()
+
+# Swagger
+GET           /swagger.json                              controllers.ApiHelpController.getResources
+GET           /assets/*file                              controllers.Assets.versioned(path="/public", file: Asset)
+GET           /docs/swagger-ui/*file                     controllers.Assets.at(path:String="/public/lib/swagger-ui", file:String)

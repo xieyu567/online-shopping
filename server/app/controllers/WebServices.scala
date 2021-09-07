@@ -1,20 +1,21 @@
 package controllers
 
 import dao.{CartsDao, ProductDao}
-import io.circe.syntax.EncoderOps
-import io.circe.parser.decode
 import io.circe.generic.auto._
-import models.{Cart, ProductInCart, Product}
-
-import javax.inject.{Inject, Singleton}
-import play.api.mvc.{AbstractController, Action, AnyContent, ControllerComponents, Result}
+import io.circe.parser.decode
+import io.circe.syntax.EncoderOps
+import io.swagger.annotations._
+import models.{Cart, Product, ProductInCart}
 import play.api.Logger
 import play.api.libs.circe.Circe
+import play.api.mvc._
 
+import javax.inject.{Inject, Singleton}
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 @Singleton
+@Api(value = "Product and Cart API")
 class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, cartsDao: CartsDao) extends AbstractController(cc) with Circe {
     val logger: Logger = Logger(this.getClass)
 
@@ -69,6 +70,8 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
     }
 
     // Product Controler //
+    @ApiOperation(value = "List all the products")
+    @ApiResponses(Array(new ApiResponse(code = 200, message = "The list of all the product")))
     def listProduct(): Action[AnyContent] = Action.async { _ =>
         val futureProducts = productDao.all()
         for (
@@ -90,6 +93,18 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
     }
 
     // Login //
+    @ApiOperation(value = "Login to the service", consumes = "text/plain")
+    @ApiImplicitParams(Array(
+        new ApiImplicitParam(
+            value = "Create a session for this user",
+            required = true,
+            dataType = "java.lang.String",
+            paramType = "body"
+        )
+    ))
+    @ApiResponses(Array(
+        new ApiResponse(code = 200, message = "login   success"),
+        new ApiResponse(code = 400, message = "Invalid user name supplied")))
     def login(): Action[AnyContent] = Action {
         request =>
             request.body.asText match {

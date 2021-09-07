@@ -14,6 +14,6 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-gzip" % "1.0.2")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-digest" % "1.1.4")
 
-addSbtPlugin("com.iheart" % "sbt-play-swagger" % "0.10.5")
+addSbtPlugin("com.iheart" % "sbt-play-swagger" % "0.10.5-PLAY2.8")
 
 addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "1.1.0")

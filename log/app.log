@@ -2154,3 +2154,1248 @@ Caused by: slick.SlickException: InsertOrUpdate is not supported on a table with
 2021-09-07 12:25:02,017 [play-dev-mode-akka.actor.default-dispatcher-66] [play.api.Play$]  INFO - Application started (Dev) (no global state)
 2021-09-07 12:25:02,186 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
 2021-09-07 12:25:02,188 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:35:58,433 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:35:58,923 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:35:58,932 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:01,042 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:01,043 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:01,127 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:01,142 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:01,143 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:01,147 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:01,150 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:01,873 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:01,874 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:01,960 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:01,979 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:01,981 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:01,985 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:01,988 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:02,575 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:02,576 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:02,674 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:02,689 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:02,691 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:02,694 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:02,697 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:03,300 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:03,302 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:03,385 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:03,400 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:03,401 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:03,405 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:03,407 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:03,962 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:03,963 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:04,034 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:04,050 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:04,051 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:04,055 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:04,058 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:04,688 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:04,690 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:04,768 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:04,784 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:04,785 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:04,788 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:04,791 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:04,805 [application-akka.actor.default-dispatcher-6] [controllers.WebServices]  INFO - User 'me' is asking for the list of product in the cart
+2021-09-07 12:36:05,364 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:05,365 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:05,445 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:05,460 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:05,461 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:05,464 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:05,467 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:05,478 [application-akka.actor.default-dispatcher-4] [controllers.WebServices]  INFO - User 'me' is asking to delete the product 'ALD1' from the cart
+2021-09-07 12:36:06,095 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:06,096 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:06,175 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:06,212 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:06,213 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:06,217 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:06,219 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:06,234 [application-akka.actor.default-dispatcher-5] [controllers.WebServices]  INFO - User 'me' is asking for the list of product in the cart
+2021-09-07 12:36:06,872 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:06,873 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:06,958 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:06,980 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:06,982 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:06,986 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:06,989 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:07,631 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:07,632 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:07,722 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:07,737 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:07,739 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:07,742 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:07,745 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:07,762 [application-akka.actor.default-dispatcher-4] [controllers.WebServices]  INFO - User 'me' is updating the product 'ALD1' in it is cart with a quantity of '99'
+2021-09-07 12:36:08,419 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:08,420 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:08,489 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:08,509 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:08,510 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:08,514 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:08,517 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:08,534 [application-akka.actor.default-dispatcher-6] [controllers.WebServices]  INFO - User 'me' is asking for the list of product in the cart
+2021-09-07 12:36:09,223 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:09,224 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:09,296 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:09,311 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:09,313 [play-dev-mode-akka.actor.default-dispatcher-69] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:09,316 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:09,319 [play-dev-mode-akka.actor.default-dispatcher-69] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:09,376 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:09,378 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:40,997 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:41,503 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:41,513 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:42,941 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:42,943 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:43,017 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:43,031 [play-dev-mode-akka.actor.default-dispatcher-72] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:43,034 [play-dev-mode-akka.actor.default-dispatcher-72] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:43,039 [play-dev-mode-akka.actor.default-dispatcher-72] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:43,041 [play-dev-mode-akka.actor.default-dispatcher-72] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:43,688 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:43,689 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:43,773 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:43,787 [play-dev-mode-akka.actor.default-dispatcher-72] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:43,788 [play-dev-mode-akka.actor.default-dispatcher-72] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:43,791 [play-dev-mode-akka.actor.default-dispatcher-72] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:43,793 [play-dev-mode-akka.actor.default-dispatcher-72] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:44,486 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:44,487 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:44,554 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:44,572 [play-dev-mode-akka.actor.default-dispatcher-72] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:44,573 [play-dev-mode-akka.actor.default-dispatcher-72] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:44,577 [play-dev-mode-akka.actor.default-dispatcher-72] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:44,579 [play-dev-mode-akka.actor.default-dispatcher-72] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:44,593 [application-akka.actor.default-dispatcher-6] [controllers.WebServices]  INFO - User 'me' is updating the product 'ALD1' in it is cart with a quantity of '99'
+2021-09-07 12:36:45,256 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:45,258 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:36:45,351 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:36:45,367 [play-dev-mode-akka.actor.default-dispatcher-72] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:36:45,369 [play-dev-mode-akka.actor.default-dispatcher-72] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:36:45,373 [play-dev-mode-akka.actor.default-dispatcher-72] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:36:45,375 [play-dev-mode-akka.actor.default-dispatcher-72] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:36:45,387 [application-akka.actor.default-dispatcher-5] [controllers.WebServices]  INFO - User 'me' is asking for the list of product in the cart
+2021-09-07 12:36:45,535 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:36:45,538 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:43:06,209 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:43:06,735 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:43:06,743 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:43:08,332 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:43:08,333 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:43:08,416 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:43:08,435 [play-dev-mode-akka.actor.default-dispatcher-75] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:43:08,437 [play-dev-mode-akka.actor.default-dispatcher-75] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:43:08,442 [play-dev-mode-akka.actor.default-dispatcher-75] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:43:08,445 [play-dev-mode-akka.actor.default-dispatcher-75] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:43:09,203 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:43:09,204 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:43:09,280 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:43:09,303 [play-dev-mode-akka.actor.default-dispatcher-75] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:43:09,305 [play-dev-mode-akka.actor.default-dispatcher-75] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:43:09,308 [play-dev-mode-akka.actor.default-dispatcher-75] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:43:09,311 [play-dev-mode-akka.actor.default-dispatcher-75] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:43:09,323 [application-akka.actor.default-dispatcher-6] [controllers.WebServices]  INFO - User 'me' is asking to delete the product 'ALD1' from the cart
+2021-09-07 12:43:10,321 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:43:10,321 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:43:10,403 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:43:10,417 [play-dev-mode-akka.actor.default-dispatcher-75] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:43:10,418 [play-dev-mode-akka.actor.default-dispatcher-75] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:43:10,422 [play-dev-mode-akka.actor.default-dispatcher-75] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:43:10,425 [play-dev-mode-akka.actor.default-dispatcher-75] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:43:10,437 [application-akka.actor.default-dispatcher-6] [controllers.WebServices]  INFO - User 'me' is asking for the list of product in the cart
+2021-09-07 12:43:10,529 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:43:10,531 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:43:40,225 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:43:40,722 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:43:40,731 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:43:42,349 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:43:42,350 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:43:42,422 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:43:42,437 [play-dev-mode-akka.actor.default-dispatcher-76] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:43:42,438 [play-dev-mode-akka.actor.default-dispatcher-76] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:43:42,441 [play-dev-mode-akka.actor.default-dispatcher-76] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:43:42,444 [play-dev-mode-akka.actor.default-dispatcher-76] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:43:43,280 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:43:43,282 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:43:43,380 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:43:43,398 [play-dev-mode-akka.actor.default-dispatcher-76] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:43:43,399 [play-dev-mode-akka.actor.default-dispatcher-76] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:43:43,403 [play-dev-mode-akka.actor.default-dispatcher-76] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:43:43,405 [play-dev-mode-akka.actor.default-dispatcher-76] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:43:44,363 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:43:44,364 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:43:44,435 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:43:44,449 [play-dev-mode-akka.actor.default-dispatcher-76] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:43:44,450 [play-dev-mode-akka.actor.default-dispatcher-76] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:43:44,453 [play-dev-mode-akka.actor.default-dispatcher-76] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:43:44,455 [play-dev-mode-akka.actor.default-dispatcher-76] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:43:44,465 [application-akka.actor.default-dispatcher-6] [controllers.WebServices]  INFO - User 'me' is asking for the list of product in the cart
+2021-09-07 12:43:44,522 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:43:44,524 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:44:13,487 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:44:13,488 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:44:13,554 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:44:13,568 [play-dev-mode-akka.actor.default-dispatcher-80] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:44:13,569 [play-dev-mode-akka.actor.default-dispatcher-80] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:44:13,572 [play-dev-mode-akka.actor.default-dispatcher-80] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:44:13,574 [play-dev-mode-akka.actor.default-dispatcher-80] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:44:14,451 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:44:14,453 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:44:14,559 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:44:14,574 [play-dev-mode-akka.actor.default-dispatcher-80] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:44:14,576 [play-dev-mode-akka.actor.default-dispatcher-80] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:44:14,580 [play-dev-mode-akka.actor.default-dispatcher-80] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:44:14,583 [play-dev-mode-akka.actor.default-dispatcher-80] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:44:16,363 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:44:16,364 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:44:16,446 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:44:16,461 [play-dev-mode-akka.actor.default-dispatcher-78] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:44:16,464 [play-dev-mode-akka.actor.default-dispatcher-78] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:44:16,467 [play-dev-mode-akka.actor.default-dispatcher-78] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:44:16,469 [play-dev-mode-akka.actor.default-dispatcher-78] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:44:26,869 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:44:26,871 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:44:26,937 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:44:26,953 [play-dev-mode-akka.actor.default-dispatcher-78] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:44:26,955 [play-dev-mode-akka.actor.default-dispatcher-78] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:44:26,958 [play-dev-mode-akka.actor.default-dispatcher-78] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:44:26,961 [play-dev-mode-akka.actor.default-dispatcher-78] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:44:27,761 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:44:27,762 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:44:27,854 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 12:44:27,874 [play-dev-mode-akka.actor.default-dispatcher-78] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 12:44:27,876 [play-dev-mode-akka.actor.default-dispatcher-78] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 12:44:27,881 [play-dev-mode-akka.actor.default-dispatcher-78] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2021-09-07 12:44:27,884 [play-dev-mode-akka.actor.default-dispatcher-78] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 12:47:26,470 [play-dev-mode-shutdown-hook-1] [play.core.server.AkkaHttpServer]  INFO - Stopping Akka HTTP server...
+2021-09-07 12:47:26,471 [play-dev-mode-akka.actor.internal-dispatcher-85] [play.core.server.AkkaHttpServer]  INFO - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-09-07 12:47:26,489 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 12:47:26,490 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 12:47:26,497 [play-dev-mode-akka.actor.internal-dispatcher-87] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks
+2021-09-07 15:13:59,290 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:13:59,425 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:13:59,442 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:13:59,943 [play-dev-mode-akka.actor.default-dispatcher-7] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:13:59,947 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:13:59,953 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:14:00,026 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:14:00,028 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:14:00,255 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:14:00,259 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:14:00,883 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:14:00,891 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:14:00,902 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:14:01,045 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:14:01,079 [play-dev-mode-akka.actor.default-dispatcher-7] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:14:01,081 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:14:01,083 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:14:01,093 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:14:01,094 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:14:01,181 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:14:01,188 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:14:01,189 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:14:01,195 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:14:01,674 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:14:01,682 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:14:01,682 [application-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:14:01,830 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:14:01,872 [play-dev-mode-akka.actor.default-dispatcher-9] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:14:01,875 [play-dev-mode-akka.actor.default-dispatcher-9] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:14:01,879 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:14:01,890 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:14:01,892 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:14:01,988 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:14:01,998 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:14:01,999 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:14:02,007 [play-dev-mode-akka.actor.default-dispatcher-9] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:14:32,392 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:14:32,394 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:14:32,395 [application-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:14:32,519 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:14:32,541 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:14:32,543 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:14:32,559 [play-dev-mode-akka.actor.default-dispatcher-7] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:14:32,560 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:14:32,562 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:14:32,570 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:14:32,571 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:14:32,678 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:14:32,679 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:14:33,016 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:14:33,018 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:14:33,020 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:14:33,137 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:14:33,171 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:14:33,173 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:14:33,191 [play-dev-mode-akka.actor.default-dispatcher-7] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:14:33,191 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:14:33,194 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:14:33,201 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:14:33,202 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:14:33,290 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:14:33,292 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:14:33,756 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:14:33,757 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:14:33,759 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:14:33,900 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:14:33,922 [play-dev-mode-akka.actor.default-dispatcher-12] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:14:33,924 [play-dev-mode-akka.actor.default-dispatcher-12] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:14:33,941 [play-dev-mode-akka.actor.default-dispatcher-12] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:14:33,942 [play-dev-mode-akka.actor.default-dispatcher-12] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:14:33,945 [play-dev-mode-akka.actor.default-dispatcher-12] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:14:33,954 [play-dev-mode-akka.actor.default-dispatcher-12] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:14:33,955 [play-dev-mode-akka.actor.default-dispatcher-12] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:14:33,998 [play-dev-mode-akka.actor.default-dispatcher-12] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:14:33,999 [play-dev-mode-akka.actor.default-dispatcher-12] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:21:06,599 [application-akka.actor.internal-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:21:06,601 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:21:06,602 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:21:06,700 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:21:06,723 [play-dev-mode-akka.actor.default-dispatcher-37] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:21:06,725 [play-dev-mode-akka.actor.default-dispatcher-37] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:21:06,726 [play-dev-mode-akka.actor.default-dispatcher-37] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:21:06,732 [play-dev-mode-akka.actor.default-dispatcher-37] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:21:06,732 [play-dev-mode-akka.actor.default-dispatcher-37] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:21:06,805 [play-dev-mode-akka.actor.default-dispatcher-37] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:21:06,811 [play-dev-mode-akka.actor.default-dispatcher-37] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:21:06,811 [play-dev-mode-akka.actor.default-dispatcher-37] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:21:06,815 [play-dev-mode-akka.actor.default-dispatcher-37] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:21:07,082 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:21:07,084 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:21:07,084 [application-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:21:07,520 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:21:07,546 [play-dev-mode-akka.actor.default-dispatcher-37] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:21:07,548 [play-dev-mode-akka.actor.default-dispatcher-37] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:21:07,561 [play-dev-mode-akka.actor.default-dispatcher-37] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:21:07,562 [play-dev-mode-akka.actor.default-dispatcher-37] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:21:07,563 [play-dev-mode-akka.actor.default-dispatcher-37] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:21:07,567 [play-dev-mode-akka.actor.default-dispatcher-37] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:21:07,568 [play-dev-mode-akka.actor.default-dispatcher-37] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:21:07,601 [play-dev-mode-akka.actor.default-dispatcher-37] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:21:07,602 [play-dev-mode-akka.actor.default-dispatcher-37] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:21:08,071 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:21:08,072 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:21:08,073 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:21:08,166 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:21:08,190 [play-dev-mode-akka.actor.default-dispatcher-40] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:21:08,191 [play-dev-mode-akka.actor.default-dispatcher-40] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:21:08,204 [play-dev-mode-akka.actor.default-dispatcher-40] [play.filters.headers.SecurityHeadersConfig$]  WARN - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2021-09-07 15:21:08,204 [play-dev-mode-akka.actor.default-dispatcher-40] [play.api.http.EnabledFilters]  INFO - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-09-07 15:21:08,206 [play-dev-mode-akka.actor.default-dispatcher-40] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:21:08,211 [play-dev-mode-akka.actor.default-dispatcher-40] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:21:08,212 [play-dev-mode-akka.actor.default-dispatcher-40] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:21:08,253 [play-dev-mode-akka.actor.default-dispatcher-40] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:21:08,254 [play-dev-mode-akka.actor.default-dispatcher-40] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:25:48,998 [application-akka.actor.internal-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:25:48,999 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:25:49,002 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:25:49,110 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:25:49,137 [play-dev-mode-akka.actor.default-dispatcher-47] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:25:49,139 [play-dev-mode-akka.actor.default-dispatcher-47] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:25:49,154 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:25:49,162 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:25:49,163 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:25:49,198 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:25:49,200 [play-dev-mode-akka.actor.default-dispatcher-47] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:25:49,494 [application-akka.actor.internal-dispatcher-2] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:25:49,495 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:25:49,496 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:25:49,602 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:25:49,623 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:25:49,629 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:25:49,629 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:25:49,657 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:25:49,662 [play-dev-mode-akka.actor.default-dispatcher-47] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:25:49,663 [play-dev-mode-akka.actor.default-dispatcher-47] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:25:49,666 [play-dev-mode-akka.actor.default-dispatcher-47] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:25:50,142 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:25:50,143 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:25:50,144 [application-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:25:50,248 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:25:50,271 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:25:50,276 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:25:50,277 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:25:50,318 [play-dev-mode-akka.actor.default-dispatcher-47] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:25:50,323 [play-dev-mode-akka.actor.default-dispatcher-47] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:25:50,324 [play-dev-mode-akka.actor.default-dispatcher-47] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:25:50,327 [play-dev-mode-akka.actor.default-dispatcher-47] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:25:54,698 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:25:54,700 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:25:54,700 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:25:54,780 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:25:54,799 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:25:54,800 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:25:54,812 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:25:54,816 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:25:54,817 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:25:54,865 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:25:54,866 [play-dev-mode-akka.actor.default-dispatcher-46] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:25:55,171 [application-akka.actor.internal-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:25:55,172 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:25:55,174 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:25:55,251 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:25:55,268 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:25:55,270 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:25:55,281 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:25:55,285 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:25:55,286 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:25:55,315 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:25:55,316 [play-dev-mode-akka.actor.default-dispatcher-50] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:26:54,269 [application-akka.actor.internal-dispatcher-8] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:26:54,270 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:26:54,272 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:26:54,366 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:26:54,386 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:26:54,387 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:26:54,397 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:26:54,400 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:26:54,401 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:26:54,429 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:26:54,429 [play-dev-mode-akka.actor.default-dispatcher-50] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:26:54,757 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:26:54,758 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:26:54,759 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:26:54,866 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:26:54,888 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:26:54,892 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:26:54,893 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:26:54,918 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:26:54,923 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:26:54,923 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:26:54,928 [play-dev-mode-akka.actor.default-dispatcher-50] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:27:11,552 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:27:11,554 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:27:11,554 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:27:11,657 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:27:11,674 [play-dev-mode-akka.actor.default-dispatcher-48] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:27:11,676 [play-dev-mode-akka.actor.default-dispatcher-48] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:27:11,686 [play-dev-mode-akka.actor.default-dispatcher-48] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:27:11,689 [play-dev-mode-akka.actor.default-dispatcher-48] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:27:11,690 [play-dev-mode-akka.actor.default-dispatcher-48] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:27:11,731 [play-dev-mode-akka.actor.default-dispatcher-48] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:27:11,731 [play-dev-mode-akka.actor.default-dispatcher-48] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:27:12,047 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:27:12,048 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:27:12,049 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:27:12,145 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:27:12,162 [play-dev-mode-akka.actor.default-dispatcher-48] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:27:12,164 [play-dev-mode-akka.actor.default-dispatcher-48] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:27:12,173 [play-dev-mode-akka.actor.default-dispatcher-48] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:27:12,176 [play-dev-mode-akka.actor.default-dispatcher-48] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:27:12,177 [play-dev-mode-akka.actor.default-dispatcher-48] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:27:12,219 [play-dev-mode-akka.actor.default-dispatcher-48] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:27:12,220 [play-dev-mode-akka.actor.default-dispatcher-48] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:27:22,825 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:27:22,826 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:27:22,827 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:27:22,908 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:27:22,927 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:27:22,931 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:27:22,932 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:27:22,960 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:27:22,964 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:27:22,965 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:27:22,968 [play-dev-mode-akka.actor.default-dispatcher-50] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:27:23,310 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:27:23,312 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:27:23,312 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:27:23,399 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:27:23,417 [play-dev-mode-akka.actor.default-dispatcher-51] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:27:23,422 [play-dev-mode-akka.actor.default-dispatcher-51] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:27:23,423 [play-dev-mode-akka.actor.default-dispatcher-51] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:27:23,449 [play-dev-mode-akka.actor.default-dispatcher-51] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:27:23,454 [play-dev-mode-akka.actor.default-dispatcher-51] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:27:23,455 [play-dev-mode-akka.actor.default-dispatcher-51] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:27:23,459 [play-dev-mode-akka.actor.default-dispatcher-51] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:28:00,824 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:28:00,827 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:28:00,827 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:28:00,917 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:28:00,934 [play-dev-mode-akka.actor.default-dispatcher-64] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:28:00,936 [play-dev-mode-akka.actor.default-dispatcher-64] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:28:00,945 [play-dev-mode-akka.actor.default-dispatcher-64] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:28:00,948 [play-dev-mode-akka.actor.default-dispatcher-64] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:28:00,948 [play-dev-mode-akka.actor.default-dispatcher-64] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:28:00,992 [play-dev-mode-akka.actor.default-dispatcher-64] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:28:00,992 [play-dev-mode-akka.actor.default-dispatcher-64] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:29:14,685 [application-akka.actor.internal-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:29:14,686 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:29:14,687 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:29:14,765 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:29:14,780 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:29:14,783 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:29:14,792 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:29:14,795 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:29:14,796 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:29:14,821 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:29:14,821 [play-dev-mode-akka.actor.default-dispatcher-50] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:30:08,310 [application-akka.actor.internal-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:30:08,311 [application-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:30:08,313 [application-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:30:08,406 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:30:08,424 [play-dev-mode-akka.actor.default-dispatcher-55] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:30:08,425 [play-dev-mode-akka.actor.default-dispatcher-55] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:30:08,435 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:30:08,438 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:30:08,439 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:30:08,467 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:30:08,468 [play-dev-mode-akka.actor.default-dispatcher-55] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:30:08,855 [application-akka.actor.internal-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:30:08,856 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:30:08,857 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:30:08,953 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:30:08,972 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:30:08,976 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:30:08,976 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:30:09,023 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:30:09,027 [play-dev-mode-akka.actor.default-dispatcher-55] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:30:09,028 [play-dev-mode-akka.actor.default-dispatcher-55] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:30:09,032 [play-dev-mode-akka.actor.default-dispatcher-55] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:30:09,630 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:30:09,632 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:30:09,632 [application-akka.actor.default-dispatcher-8] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:30:09,715 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:30:09,733 [play-dev-mode-akka.actor.default-dispatcher-55] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:30:09,735 [play-dev-mode-akka.actor.default-dispatcher-55] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:30:09,744 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:30:09,748 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:30:09,748 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:30:09,778 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:30:09,779 [play-dev-mode-akka.actor.default-dispatcher-55] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:30:23,526 [application-akka.actor.internal-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:30:23,527 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:30:23,529 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:30:23,604 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:30:23,625 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:30:23,629 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:30:23,630 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:30:23,658 [play-dev-mode-akka.actor.default-dispatcher-50] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:30:23,663 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:30:23,663 [play-dev-mode-akka.actor.default-dispatcher-50] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:30:23,667 [play-dev-mode-akka.actor.default-dispatcher-50] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:30:28,312 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:30:28,313 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:30:28,314 [application-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:30:28,391 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:30:28,408 [play-dev-mode-akka.actor.default-dispatcher-55] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:30:28,409 [play-dev-mode-akka.actor.default-dispatcher-55] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:30:28,418 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:30:28,421 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:30:28,421 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:30:28,470 [play-dev-mode-akka.actor.default-dispatcher-55] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:30:28,470 [play-dev-mode-akka.actor.default-dispatcher-55] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:32:44,264 [application-akka.actor.internal-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:32:44,266 [application-akka.actor.default-dispatcher-10] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:32:44,267 [application-akka.actor.default-dispatcher-10] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:32:44,348 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:32:44,365 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:32:44,368 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:32:44,368 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:32:44,429 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:32:44,433 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:32:44,434 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:32:44,437 [play-dev-mode-akka.actor.default-dispatcher-46] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:32:44,855 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:32:44,857 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:32:44,857 [application-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:32:44,943 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:32:44,960 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:32:44,961 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:32:44,974 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:32:44,977 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:32:44,977 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:32:45,005 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:32:45,006 [play-dev-mode-akka.actor.default-dispatcher-46] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:32:45,674 [application-akka.actor.internal-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:32:45,675 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:32:45,676 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:32:45,770 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:32:45,791 [play-dev-mode-akka.actor.default-dispatcher-111] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:32:45,795 [play-dev-mode-akka.actor.default-dispatcher-111] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:32:45,795 [play-dev-mode-akka.actor.default-dispatcher-111] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:32:45,826 [play-dev-mode-akka.actor.default-dispatcher-111] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:32:45,831 [play-dev-mode-akka.actor.default-dispatcher-111] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:32:45,832 [play-dev-mode-akka.actor.default-dispatcher-111] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:32:45,836 [play-dev-mode-akka.actor.default-dispatcher-111] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:32:49,472 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:32:49,473 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:32:49,473 [application-akka.actor.default-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:32:49,561 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:32:49,579 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:32:49,581 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:32:49,592 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:32:49,596 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:32:49,596 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:32:49,652 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:32:49,653 [play-dev-mode-akka.actor.default-dispatcher-46] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:32:54,359 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:32:54,360 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:32:54,361 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:32:54,456 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:32:54,472 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:32:54,473 [play-dev-mode-akka.actor.default-dispatcher-46] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:32:54,482 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:32:54,485 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:32:54,485 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:32:54,510 [play-dev-mode-akka.actor.default-dispatcher-46] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:32:54,511 [play-dev-mode-akka.actor.default-dispatcher-46] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:47:39,089 [application-akka.actor.internal-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:47:39,090 [application-akka.actor.default-dispatcher-10] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:47:39,091 [application-akka.actor.default-dispatcher-10] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:47:39,189 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:47:39,205 [play-dev-mode-akka.actor.default-dispatcher-147] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:47:39,206 [play-dev-mode-akka.actor.default-dispatcher-147] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:47:39,215 [play-dev-mode-akka.actor.default-dispatcher-147] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:47:39,217 [play-dev-mode-akka.actor.default-dispatcher-147] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:47:39,218 [play-dev-mode-akka.actor.default-dispatcher-147] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:47:39,246 [play-dev-mode-akka.actor.default-dispatcher-147] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:47:39,247 [play-dev-mode-akka.actor.default-dispatcher-147] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:47:39,641 [application-akka.actor.internal-dispatcher-2] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:47:39,642 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:47:39,643 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:47:39,729 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:47:39,750 [play-dev-mode-akka.actor.default-dispatcher-147] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:47:39,754 [play-dev-mode-akka.actor.default-dispatcher-147] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:47:39,755 [play-dev-mode-akka.actor.default-dispatcher-147] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:47:39,796 [play-dev-mode-akka.actor.default-dispatcher-147] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:47:39,801 [play-dev-mode-akka.actor.default-dispatcher-147] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:47:39,802 [play-dev-mode-akka.actor.default-dispatcher-147] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:47:39,806 [play-dev-mode-akka.actor.default-dispatcher-147] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:48:47,832 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:48:47,833 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:48:47,833 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:48:47,905 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:48:47,923 [play-dev-mode-akka.actor.default-dispatcher-153] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:48:47,927 [play-dev-mode-akka.actor.default-dispatcher-153] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:48:47,927 [play-dev-mode-akka.actor.default-dispatcher-153] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:48:47,951 [play-dev-mode-akka.actor.default-dispatcher-153] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:48:47,955 [play-dev-mode-akka.actor.default-dispatcher-153] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:48:47,956 [play-dev-mode-akka.actor.default-dispatcher-153] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:48:47,959 [play-dev-mode-akka.actor.default-dispatcher-153] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:48:48,431 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:48:48,432 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:48:48,432 [application-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:48:48,521 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:48:48,536 [play-dev-mode-akka.actor.default-dispatcher-154] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:48:48,537 [play-dev-mode-akka.actor.default-dispatcher-154] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:48:48,546 [play-dev-mode-akka.actor.default-dispatcher-154] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:48:48,549 [play-dev-mode-akka.actor.default-dispatcher-154] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:48:48,549 [play-dev-mode-akka.actor.default-dispatcher-154] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:48:48,576 [play-dev-mode-akka.actor.default-dispatcher-154] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:48:48,576 [play-dev-mode-akka.actor.default-dispatcher-154] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:48:49,208 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:48:49,209 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:48:49,210 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:48:49,299 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:48:49,317 [play-dev-mode-akka.actor.default-dispatcher-151] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:48:49,320 [play-dev-mode-akka.actor.default-dispatcher-151] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:48:49,320 [play-dev-mode-akka.actor.default-dispatcher-151] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:48:49,363 [play-dev-mode-akka.actor.default-dispatcher-151] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:48:49,367 [play-dev-mode-akka.actor.default-dispatcher-151] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:48:49,368 [play-dev-mode-akka.actor.default-dispatcher-151] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:48:49,371 [play-dev-mode-akka.actor.default-dispatcher-151] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:50:53,610 [application-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:50:53,611 [application-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:50:53,611 [application-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:50:53,689 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:50:53,708 [play-dev-mode-akka.actor.default-dispatcher-148] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:50:53,711 [play-dev-mode-akka.actor.default-dispatcher-148] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:50:53,711 [play-dev-mode-akka.actor.default-dispatcher-148] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:50:53,738 [play-dev-mode-akka.actor.default-dispatcher-148] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:50:53,742 [play-dev-mode-akka.actor.default-dispatcher-148] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:50:53,743 [play-dev-mode-akka.actor.default-dispatcher-148] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:50:53,746 [play-dev-mode-akka.actor.default-dispatcher-148] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:50:54,222 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:50:54,223 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:50:54,223 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:50:54,302 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:50:54,326 [play-dev-mode-akka.actor.default-dispatcher-148] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:50:54,333 [play-dev-mode-akka.actor.default-dispatcher-148] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:50:54,333 [play-dev-mode-akka.actor.default-dispatcher-148] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:50:54,364 [play-dev-mode-akka.actor.default-dispatcher-148] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:50:54,369 [play-dev-mode-akka.actor.default-dispatcher-148] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:50:54,369 [play-dev-mode-akka.actor.default-dispatcher-148] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:50:54,372 [play-dev-mode-akka.actor.default-dispatcher-148] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:53:29,774 [play-dev-mode-shutdown-hook-1] [play.core.server.AkkaHttpServer]  INFO - Stopping Akka HTTP server...
+2021-09-07 15:53:29,785 [play-dev-mode-akka.actor.internal-dispatcher-164] [play.core.server.AkkaHttpServer]  INFO - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-09-07 15:53:29,804 [application-akka.actor.default-dispatcher-12] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:53:29,811 [application-akka.actor.default-dispatcher-12] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:53:29,812 [application-akka.actor.default-dispatcher-12] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:53:29,820 [play-dev-mode-akka.actor.internal-dispatcher-164] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks
+2021-09-07 15:55:04,099 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:55:04,237 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:55:04,250 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:55:04,661 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:55:04,718 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:55:04,721 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:55:04,881 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:55:04,884 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:55:05,427 [application-akka.actor.internal-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:55:05,434 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:55:05,448 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:55:05,607 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:55:05,643 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:55:05,655 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:55:05,656 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:55:05,722 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:55:05,728 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:55:05,729 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:55:05,735 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:55:06,241 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:55:06,247 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:55:06,248 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:55:06,404 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:55:06,455 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:55:06,466 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:55:06,467 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:55:06,586 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:55:06,592 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:55:06,593 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:55:06,597 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:55:52,402 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:55:52,404 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:55:52,404 [application-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:55:52,542 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:55:52,579 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:55:52,588 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:55:52,589 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:55:52,628 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:55:52,633 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:55:52,634 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:55:52,641 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:55:52,936 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:55:52,937 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:55:52,938 [application-akka.actor.default-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:55:53,052 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:55:53,081 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:55:53,088 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:55:53,088 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:55:53,119 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:55:53,125 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:55:53,125 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:55:53,129 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 15:55:53,549 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 15:55:53,550 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 15:55:53,550 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 15:55:53,675 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 15:55:53,706 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 15:55:53,707 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 15:55:53,721 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 15:55:53,726 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 15:55:53,727 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 15:55:53,760 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 15:55:53,761 [play-dev-mode-akka.actor.default-dispatcher-9] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:02:56,902 [pool-7-thread-5] [play.api.internal.libs.concurrent.CoordinatedShutdownSupport$]  INFO - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2021-09-07 16:02:56,903 [pool-7-thread-5] [play.core.server.AkkaHttpServer]  INFO - Stopping Akka HTTP server...
+2021-09-07 16:02:56,905 [play-dev-mode-akka.actor.internal-dispatcher-38] [play.core.server.AkkaHttpServer]  INFO - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-09-07 16:02:56,913 [application-akka.actor.internal-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:02:56,914 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:02:56,916 [application-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:02:56,924 [play-dev-mode-akka.actor.internal-dispatcher-40] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks
+2021-09-07 16:04:12,828 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:04:12,963 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:04:12,975 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:04:13,323 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:04:13,383 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:04:13,386 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:04:13,533 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:04:13,535 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:04:14,094 [application-akka.actor.internal-dispatcher-2] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:04:14,098 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:04:14,109 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:04:14,273 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:04:14,300 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:04:14,301 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:04:14,322 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:04:14,332 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:04:14,333 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:04:14,396 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:04:14,397 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:04:14,896 [application-akka.actor.internal-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:04:14,897 [application-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:04:14,908 [application-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:04:15,061 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:04:15,093 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:04:15,125 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:04:15,126 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:04:15,262 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:04:15,271 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:04:15,272 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:04:15,280 [play-dev-mode-akka.actor.default-dispatcher-9] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:04:23,911 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:04:23,914 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:04:23,915 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:04:24,075 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:04:24,105 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:04:24,112 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:04:24,114 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:04:24,165 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:04:24,172 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:04:24,173 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:04:24,179 [play-dev-mode-akka.actor.default-dispatcher-9] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:04:24,486 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:04:24,488 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:04:24,488 [application-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:04:24,595 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:04:24,627 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:04:24,635 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:04:24,635 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:04:24,668 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:04:24,673 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:04:24,674 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:04:24,680 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:04:25,121 [application-akka.actor.default-dispatcher-11] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:04:25,122 [application-akka.actor.default-dispatcher-11] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:04:25,122 [application-akka.actor.default-dispatcher-11] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:04:25,250 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:04:25,278 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:04:25,280 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:04:25,292 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:04:25,299 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:04:25,300 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:04:25,335 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:04:25,336 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:04:44,909 [application-akka.actor.internal-dispatcher-3] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:04:44,910 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:04:44,911 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:04:45,015 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:04:45,040 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:04:45,048 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:04:45,049 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:04:45,083 [play-dev-mode-akka.actor.default-dispatcher-9] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:04:45,089 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:04:45,089 [play-dev-mode-akka.actor.default-dispatcher-9] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:04:45,095 [play-dev-mode-akka.actor.default-dispatcher-9] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:08:16,815 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:08:16,816 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:08:16,816 [application-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:08:16,956 [application-akka.actor.default-dispatcher-7] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:08:16,978 [play-dev-mode-akka.actor.default-dispatcher-18] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:08:16,979 [play-dev-mode-akka.actor.default-dispatcher-18] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:08:16,995 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:08:17,001 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:08:17,003 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:08:17,040 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:08:17,041 [play-dev-mode-akka.actor.default-dispatcher-18] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:08:17,300 [application-akka.actor.internal-dispatcher-2] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:08:17,301 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:08:17,302 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:08:17,442 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:08:17,460 [play-dev-mode-akka.actor.default-dispatcher-18] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:08:17,462 [play-dev-mode-akka.actor.default-dispatcher-18] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:08:17,474 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:08:17,479 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:08:17,481 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:08:17,513 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:08:17,514 [play-dev-mode-akka.actor.default-dispatcher-18] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:08:18,005 [application-akka.actor.internal-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:08:18,005 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:08:18,006 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:08:18,096 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:08:18,116 [play-dev-mode-akka.actor.default-dispatcher-21] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:08:18,118 [play-dev-mode-akka.actor.default-dispatcher-21] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:08:18,131 [play-dev-mode-akka.actor.default-dispatcher-21] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:08:18,137 [play-dev-mode-akka.actor.default-dispatcher-21] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:08:18,138 [play-dev-mode-akka.actor.default-dispatcher-21] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:08:18,172 [play-dev-mode-akka.actor.default-dispatcher-21] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:08:18,173 [play-dev-mode-akka.actor.default-dispatcher-21] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:08:21,457 [application-akka.actor.internal-dispatcher-2] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:08:21,457 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:08:21,458 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:08:21,535 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:08:21,557 [play-dev-mode-akka.actor.default-dispatcher-20] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:08:21,562 [play-dev-mode-akka.actor.default-dispatcher-20] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:08:21,563 [play-dev-mode-akka.actor.default-dispatcher-20] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:08:21,596 [play-dev-mode-akka.actor.default-dispatcher-20] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:08:21,600 [play-dev-mode-akka.actor.default-dispatcher-20] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:08:21,601 [play-dev-mode-akka.actor.default-dispatcher-20] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:08:21,605 [play-dev-mode-akka.actor.default-dispatcher-20] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:08:21,872 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:08:21,873 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:08:21,873 [application-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:08:21,963 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:08:21,981 [play-dev-mode-akka.actor.default-dispatcher-20] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:08:21,983 [play-dev-mode-akka.actor.default-dispatcher-20] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:08:21,994 [play-dev-mode-akka.actor.default-dispatcher-20] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:08:21,998 [play-dev-mode-akka.actor.default-dispatcher-20] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:08:21,999 [play-dev-mode-akka.actor.default-dispatcher-20] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:08:22,057 [play-dev-mode-akka.actor.default-dispatcher-20] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:08:22,058 [play-dev-mode-akka.actor.default-dispatcher-20] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:08:22,401 [application-akka.actor.internal-dispatcher-2] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:08:22,402 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:08:22,403 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:08:22,506 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:08:22,525 [play-dev-mode-akka.actor.default-dispatcher-18] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:08:22,526 [play-dev-mode-akka.actor.default-dispatcher-18] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:08:22,537 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:08:22,541 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:08:22,542 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:08:22,601 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:08:22,602 [play-dev-mode-akka.actor.default-dispatcher-18] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:08:28,168 [application-akka.actor.internal-dispatcher-2] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:08:28,169 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:08:28,170 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:08:28,254 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:08:28,277 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:08:28,282 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:08:28,283 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:08:28,337 [play-dev-mode-akka.actor.default-dispatcher-18] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:08:28,342 [play-dev-mode-akka.actor.default-dispatcher-18] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:08:28,343 [play-dev-mode-akka.actor.default-dispatcher-18] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:08:28,346 [play-dev-mode-akka.actor.default-dispatcher-18] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:08:30,922 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:08:30,924 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:08:30,924 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:08:31,038 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:08:31,062 [play-dev-mode-akka.actor.default-dispatcher-23] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:08:31,066 [play-dev-mode-akka.actor.default-dispatcher-23] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:08:31,067 [play-dev-mode-akka.actor.default-dispatcher-23] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:08:31,116 [play-dev-mode-akka.actor.default-dispatcher-23] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:08:31,121 [play-dev-mode-akka.actor.default-dispatcher-23] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:08:31,122 [play-dev-mode-akka.actor.default-dispatcher-23] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:08:31,126 [play-dev-mode-akka.actor.default-dispatcher-23] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:14:31,631 [pool-7-thread-13] [play.api.internal.libs.concurrent.CoordinatedShutdownSupport$]  INFO - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2021-09-07 16:14:31,632 [pool-7-thread-13] [play.core.server.AkkaHttpServer]  INFO - Stopping Akka HTTP server...
+2021-09-07 16:14:31,634 [play-dev-mode-akka.actor.internal-dispatcher-26] [play.core.server.AkkaHttpServer]  INFO - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-09-07 16:14:31,643 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:14:31,644 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:14:31,644 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:14:31,656 [play-dev-mode-akka.actor.internal-dispatcher-28] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks
+2021-09-07 16:18:41,423 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:18:41,618 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:18:41,676 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:18:41,679 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:18:41,822 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:18:41,926 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:18:41,940 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:18:42,172 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:18:42,722 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:18:42,736 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:18:42,738 [application-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:18:42,914 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:18:42,941 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:18:42,943 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:18:42,970 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:18:42,982 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:18:42,983 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:18:43,133 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:18:43,134 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:18:43,574 [application-akka.actor.internal-dispatcher-2] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:18:43,575 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:18:43,581 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:18:43,735 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:18:43,770 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:18:43,777 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:18:43,778 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:18:43,810 [play-dev-mode-akka.actor.default-dispatcher-5] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:18:43,816 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:18:43,817 [play-dev-mode-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:18:43,821 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:18:52,849 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:18:52,850 [application-akka.actor.default-dispatcher-6] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:18:52,851 [application-akka.actor.default-dispatcher-6] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:18:52,971 [application-akka.actor.default-dispatcher-4] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:18:53,004 [play-dev-mode-akka.actor.default-dispatcher-8] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:18:53,011 [play-dev-mode-akka.actor.default-dispatcher-8] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:18:53,012 [play-dev-mode-akka.actor.default-dispatcher-8] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:18:53,046 [play-dev-mode-akka.actor.default-dispatcher-8] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:18:53,051 [play-dev-mode-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:18:53,052 [play-dev-mode-akka.actor.default-dispatcher-8] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:18:53,057 [play-dev-mode-akka.actor.default-dispatcher-8] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:18:55,189 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:18:55,191 [application-akka.actor.default-dispatcher-4] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:18:55,191 [application-akka.actor.default-dispatcher-4] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:18:55,302 [application-akka.actor.default-dispatcher-6] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-07 16:18:55,337 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - starting initialisation...
+2021-09-07 16:18:55,348 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner]  INFO - ControllerScanner - looking for controllers with API annotation
+2021-09-07 16:18:55,349 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.PlayApiScanner$$anonfun$1]  INFO - Found API controller:  controllers.WebServices
+2021-09-07 16:18:55,416 [play-dev-mode-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - initialization done.
+2021-09-07 16:18:55,423 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-07 16:18:55,424 [play-dev-mode-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-07 16:18:55,428 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.Play$]  INFO - Application started (Dev) (no global state)
+2021-09-07 16:19:27,547 [pool-7-thread-9] [play.api.internal.libs.concurrent.CoordinatedShutdownSupport$]  INFO - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2021-09-07 16:19:27,548 [pool-7-thread-9] [play.core.server.AkkaHttpServer]  INFO - Stopping Akka HTTP server...
+2021-09-07 16:19:27,549 [play-dev-mode-akka.actor.internal-dispatcher-3] [play.core.server.AkkaHttpServer]  INFO - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-09-07 16:19:27,567 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-07 16:19:27,569 [application-akka.actor.default-dispatcher-7] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-07 16:19:27,569 [application-akka.actor.default-dispatcher-7] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger - stopped.
+2021-09-07 16:19:27,581 [play-dev-mode-akka.actor.internal-dispatcher-18] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks
+2021-09-07 16:25:11,747 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.http.DefaultHttpErrorHandler] ERROR - 
+
+! @7l1jo0oe6 - Internal server error, for (GET) [/docs/swagger-ui/index.html?url=/assets/swagger.json] ->
+ 
+play.api.PlayException: Cannot load module[Module [play.modules.swagger.SwaggerModule] cannot be instantiated.]
+	at play.api.inject.Modules$.constructModule(Module.scala:180)
+	at play.api.inject.Modules$.$anonfun$locate$4(Module.scala:138)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:335)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:1111)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:53)
+	at scala.collection.SetLike.map(SetLike.scala:105)
+	at scala.collection.SetLike.map$(SetLike.scala:105)
+	at scala.collection.AbstractSet.map(Set.scala:53)
+	at play.api.inject.Modules$.locate(Module.scala:133)
+	at play.api.inject.guice.GuiceableModule$.loadModules(GuiceInjectorBuilder.scala:299)
+	at play.api.inject.guice.GuiceApplicationBuilder$.$anonfun$$lessinit$greater$default$9$1(GuiceApplicationBuilder.scala:36)
+	at play.api.inject.guice.GuiceApplicationBuilder.applicationModule(GuiceApplicationBuilder.scala:114)
+	at play.api.inject.guice.GuiceBuilder.injector(GuiceInjectorBuilder.scala:200)
+	at play.api.inject.guice.GuiceApplicationBuilder.build(GuiceApplicationBuilder.scala:155)
+	at play.api.inject.guice.GuiceApplicationLoader.load(GuiceApplicationLoader.scala:21)
+	at play.core.server.DevServerStart$$anon$1.$anonfun$reload$2(DevServerStart.scala:193)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:22)
+	at play.core.server.DevServerStart$$anon$1.reload(DevServerStart.scala:185)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:148)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:302)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:224)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1297)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:541)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:495)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:502)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:600)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:775)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:790)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:691)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:547)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.lang.ClassNotFoundException: play.modules.swagger.SwaggerModule
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at play.api.inject.Modules$.$anonfun$locate$5(Module.scala:138)
+	at play.api.inject.Modules$.constructModule(Module.scala:150)
+	... 44 common frames omitted
+2021-09-07 16:25:21,160 [play-dev-mode-akka.actor.default-dispatcher-5] [play.api.http.DefaultHttpErrorHandler] ERROR - 
+
+! @7l1jo0oe6 - Internal server error, for (GET) [/docs/swagger-ui/index.html?url=/assets] ->
+ 
+play.api.PlayException: Cannot load module[Module [play.modules.swagger.SwaggerModule] cannot be instantiated.]
+	at play.api.inject.Modules$.constructModule(Module.scala:180)
+	at play.api.inject.Modules$.$anonfun$locate$4(Module.scala:138)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:335)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:1111)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:53)
+	at scala.collection.SetLike.map(SetLike.scala:105)
+	at scala.collection.SetLike.map$(SetLike.scala:105)
+	at scala.collection.AbstractSet.map(Set.scala:53)
+	at play.api.inject.Modules$.locate(Module.scala:133)
+	at play.api.inject.guice.GuiceableModule$.loadModules(GuiceInjectorBuilder.scala:299)
+	at play.api.inject.guice.GuiceApplicationBuilder$.$anonfun$$lessinit$greater$default$9$1(GuiceApplicationBuilder.scala:36)
+	at play.api.inject.guice.GuiceApplicationBuilder.applicationModule(GuiceApplicationBuilder.scala:114)
+	at play.api.inject.guice.GuiceBuilder.injector(GuiceInjectorBuilder.scala:200)
+	at play.api.inject.guice.GuiceApplicationBuilder.build(GuiceApplicationBuilder.scala:155)
+	at play.api.inject.guice.GuiceApplicationLoader.load(GuiceApplicationLoader.scala:21)
+	at play.core.server.DevServerStart$$anon$1.$anonfun$reload$2(DevServerStart.scala:193)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:22)
+	at play.core.server.DevServerStart$$anon$1.reload(DevServerStart.scala:185)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:148)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:302)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:224)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1297)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:541)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:495)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:502)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:600)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:775)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:790)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:691)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:547)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.lang.ClassNotFoundException: play.modules.swagger.SwaggerModule
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at play.api.inject.Modules$.$anonfun$locate$5(Module.scala:138)
+	at play.api.inject.Modules$.constructModule(Module.scala:150)
+	... 44 common frames omitted
+2021-09-07 16:25:25,800 [play-dev-mode-akka.actor.default-dispatcher-7] [play.api.http.DefaultHttpErrorHandler] ERROR - 
+
+! @7l1jo0oe6 - Internal server error, for (GET) [/docs/swagger-ui/index.html] ->
+ 
+play.api.PlayException: Cannot load module[Module [play.modules.swagger.SwaggerModule] cannot be instantiated.]
+	at play.api.inject.Modules$.constructModule(Module.scala:180)
+	at play.api.inject.Modules$.$anonfun$locate$4(Module.scala:138)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:335)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:1111)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:53)
+	at scala.collection.SetLike.map(SetLike.scala:105)
+	at scala.collection.SetLike.map$(SetLike.scala:105)
+	at scala.collection.AbstractSet.map(Set.scala:53)
+	at play.api.inject.Modules$.locate(Module.scala:133)
+	at play.api.inject.guice.GuiceableModule$.loadModules(GuiceInjectorBuilder.scala:299)
+	at play.api.inject.guice.GuiceApplicationBuilder$.$anonfun$$lessinit$greater$default$9$1(GuiceApplicationBuilder.scala:36)
+	at play.api.inject.guice.GuiceApplicationBuilder.applicationModule(GuiceApplicationBuilder.scala:114)
+	at play.api.inject.guice.GuiceBuilder.injector(GuiceInjectorBuilder.scala:200)
+	at play.api.inject.guice.GuiceApplicationBuilder.build(GuiceApplicationBuilder.scala:155)
+	at play.api.inject.guice.GuiceApplicationLoader.load(GuiceApplicationLoader.scala:21)
+	at play.core.server.DevServerStart$$anon$1.$anonfun$reload$2(DevServerStart.scala:193)
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:22)
+	at play.core.server.DevServerStart$$anon$1.reload(DevServerStart.scala:185)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:148)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:302)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:224)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1297)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:541)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:495)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:502)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:600)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:775)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:790)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:691)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:547)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+Caused by: java.lang.ClassNotFoundException: play.modules.swagger.SwaggerModule
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at play.api.inject.Modules$.$anonfun$locate$5(Module.scala:138)
+	at play.api.inject.Modules$.constructModule(Module.scala:150)
+	... 44 common frames omitted
+2021-09-07 16:28:32,483 [play-dev-mode-shutdown-hook-1] [play.core.server.AkkaHttpServer]  INFO - Stopping Akka HTTP server...
+2021-09-07 16:28:32,489 [play-dev-mode-akka.actor.internal-dispatcher-4] [play.core.server.AkkaHttpServer]  INFO - Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-09-07 16:28:32,496 [play-dev-mode-akka.actor.internal-dispatcher-4] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks

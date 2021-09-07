@@ -6,6 +6,7 @@ lazy val server = (project in file("server")).settings(commonSettings).settings(
     pipelineStages := Seq(digest, gzip),
     // triggers scalaJSPipeline when using compile or continuous compilation
     Compile / compile := ((Compile / compile) dependsOn scalaJSPipeline).value,
+    swaggerDomainNameSpaces := Seq("models"),
     libraryDependencies ++= Seq(
         "com.vmunier" %% "scalajs-scripts" % "1.2.0",
         "com.typesafe.play" %% "play-slick" % "5.0.0",
@@ -14,11 +15,13 @@ lazy val server = (project in file("server")).settings(commonSettings).settings(
         "io.circe" %%% "circe-generic" % "0.14.1",
         "io.circe" %%% "circe-parser" % "0.14.1",
         "com.h2database" % "h2" % "1.4.200",
+        "io.swagger" %% "swagger-play2" % "1.7.1",
+        "org.webjars" % "swagger-ui" % "3.51.2",
         "org.postgresql" % "postgresql" % "42.2.23",
         guice,
         "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % "test"
     )
-).enablePlugins(PlayScala)
+).enablePlugins(PlayScala, SwaggerPlugin)
     .disablePlugins(PlayFilters)
     .dependsOn(sharedJvm)
 // Compile the project before generating Eclipse files, so that generated .scala or .class files for views and routes are present
@@ -43,7 +46,7 @@ lazy val sharedJs = shared.js
 
 lazy val commonSettings = Seq(
     scalaVersion := "2.12.14",
-    organization := "com.effe"
+    organization := "com.effe",
 )
 
 // loads the server project at sbt startup

@@ -1,7 +1,6 @@
 package controllers
 
 import javax.inject._
-
 import com.effe.shopping.shared.SharedMessages
 import play.api.mvc._
 
