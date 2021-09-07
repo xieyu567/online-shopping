@@ -30,7 +30,7 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
         userOption match {
             case Some(user) =>
                 logger.info(s"User '$user' is asking for the list of product in the cart")
-                val futureInsert = cartsDao.all()
+                val futureInsert = cartsDao.cart4(user)
                 futureInsert.map(products => Ok(products.asJson)).recover(recoverError)
             case None => Future.successful(Unauthorized)
         }

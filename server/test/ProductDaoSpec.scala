@@ -14,12 +14,12 @@ class ProductDaoSpec extends PlaySpec with ScalaFutures with GuiceOneAppPerSuite
 
             val expected = Set(
                 Product("PEPPER", "ALD2", "PEPPER is a robot moving with wheels and with " +
-                    "a screen as human interaction", 7000.0),
-                Product("NAO", "ALD1", "NAO is an humanoid robot.", 3500.0),
-                Product("BEOBOT", "BEO1", "Beobot is a multipurpose robot.", 159.0)
+                    "a screen as human interaction", 7000),
+                Product("NAO", "ALD1", "NAO is an humanoid robot.", 3500),
+                Product("BEOBOT", "BEO1", "Beobot is a multipurpose robot.", 159)
             )
 
-            dao.all().futureValue should contain theSameElementsAs (expected)
+            dao.all().futureValue should contain theSameElementsAs expected
         }
     )
 }

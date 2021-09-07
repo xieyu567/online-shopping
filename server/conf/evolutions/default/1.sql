@@ -1,9 +1,11 @@
-# --- !Ups
+-- Users schema
+
+-- !Ups
 
 CREATE TABLE IF NOT EXISTS PUBLIC.PRODUCTS
 (
     name        VARCHAR(100)  NOT NULL,
-    code        VARCHAR(255)  NOT NULL,
+    code        VARCHAR(255)  NOT NULL ,
     description VARCHAR(1000) NOT NULL,
     price       INT           NOT NULL,
     PRIMARY KEY(code)
@@ -26,7 +28,7 @@ CREATE TABLE IF NOT EXISTS PUBLIC.CART
     CONSTRAINT UC_CART UNIQUE(user,code)
 );
 
-# --- !Downs
+-- !Downs
 
 DROP TABLE PRODUCTS;
 DROP TABLE CART;

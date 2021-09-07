@@ -1,6 +1,6 @@
 package models
 
-case class Product(name: String, code: String, description: String, price: Double)
+case class Product(name: String, code: String, description: String, price: Int)
 
 abstract class CartKey {
     def user: String
