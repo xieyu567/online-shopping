@@ -19,6 +19,9 @@ PUT           /v1/cart/products/:id/quantity/:qty        controllers.WebServices
 POST          /v1/login                                  controllers.WebServices.login()
 
 # Swagger
-GET           /swagger.json                              controllers.ApiHelpController.getResources
+### NoDocs ###
+GET           /v1/swagger.json                              controllers.ApiHelpController.getResources
+### NoDocs ###
 GET           /assets/*file                              controllers.Assets.versioned(path="/public", file: Asset)
+### NoDocs ###
 GET           /docs/swagger-ui/*file                     controllers.Assets.at(path:String="/public/lib/swagger-ui", file:String)

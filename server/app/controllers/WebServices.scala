@@ -26,6 +26,10 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
     }
 
     // Cart Controler //
+    @ApiOperation(value = "List the product in the cart", consumes = "text/plain")
+    @ApiResponses(Array(new ApiResponse(code = 200, message = "Product added"),
+        new ApiResponse(code = 400, message = "unauthorized, please login before to proceed"),
+        new ApiResponse(code = 500, message = "Internal server error, database error")))
     def listCartProducts(): Action[AnyContent] = Action.async { request =>
         val userOption = request.session.get("user")
         userOption match {
@@ -48,15 +52,21 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
         }
     }
 
-    def addCartProduct(id: String, quantity: String): Action[AnyContent] = Action.async { request =>
-        val user = request.session.get("user")
-        user match {
-            case Some(user) =>
-                val futureInsert = cartsDao.insert(Cart(user, id, quantity.toInt))
-                futureInsert.map(_ => Ok).recover(recoverError)
-            case None => Future.successful(Unauthorized)
+    @ApiOperation(value = "Add a product in the cart", consumes = "text/plain")
+    @ApiResponses(Array(new ApiResponse(code = 200, message = "Product added in the cart"),
+        new ApiResponse(code = 400, message = "Cannot insert duplicates in the database"),
+        new ApiResponse(code = 401, message = "unauthorized, please login before to proceed"),
+        new ApiResponse(code = 500, message = "Internal server error, database error")))
+    def addCartProduct(id: String, quantity: String): Action[AnyContent] =
+        Action.async { request =>
+            val user = request.session.get("user")
+            user match {
+                case Some(user) =>
+                    val futureInsert = cartsDao.insert(Cart(user, id, quantity.toInt))
+                    futureInsert.map(_ => Ok).recover(recoverError)
+                case None => Future.successful(Unauthorized)
+            }
         }
-    }
 
     def updateCartProduct(id: String, quantity: String): Action[AnyContent] = Action.async { request =>
         val user = request.session.get("user")
@@ -79,6 +89,15 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
         ) yield Ok(products.asJson)
     }
 
+    @ApiOperation(value = "Add a product", consumes = "text/plain")
+    @ApiImplicitParams(Array(
+        new ApiImplicitParam(value = "The product to add",
+            required = true,
+            dataType = "models.Product",
+            paramType = "body")))
+    @ApiResponses(Array(new ApiResponse(code = 200, message = "Product added"),
+        new ApiResponse(code = 400, message = "Invalid body supplied"),
+        new ApiResponse(code = 500, message = "Internal server error, database error")))
     def addProduct(): Action[AnyContent] = Action.async { request =>
         val productOrNot = decode[Product](request.body.asText.getOrElse(""))
         productOrNot match {
