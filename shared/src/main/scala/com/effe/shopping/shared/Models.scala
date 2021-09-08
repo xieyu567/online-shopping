@@ -1,4 +1,4 @@
-package models
+package com.effe.shopping.shared
 
 case class Product(name: String, code: String, description: String, price: Int)
 

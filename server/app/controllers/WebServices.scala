@@ -1,11 +1,11 @@
 package controllers
 
+import com.effe.shopping.shared.{Cart, Product, ProductInCart}
 import dao.{CartsDao, ProductDao}
 import io.circe.generic.auto._
 import io.circe.parser.decode
 import io.circe.syntax.EncoderOps
 import io.swagger.annotations._
-import models.{Cart, Product, ProductInCart}
 import play.api.Logger
 import play.api.libs.circe.Circe
 import play.api.mvc._
@@ -103,7 +103,7 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
     @ApiImplicitParams(Array(
         new ApiImplicitParam(value = "The product to add",
             required = true,
-            dataType = "models.Product",
+            dataType = "com.effe.shopping.shared.Product",
             paramType = "body")))
     @ApiResponses(Array(new ApiResponse(code = 200, message = "Product added"),
         new ApiResponse(code = 400, message = "Invalid body supplied"),

@@ -1,5 +1,5 @@
+import com.effe.shopping.shared.Product
 import dao.ProductDao
-import models.Product
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
 import org.scalatestplus.play.PlaySpec

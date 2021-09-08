@@ -32,11 +32,12 @@ lazy val client = (project in file("client")).settings(commonSettings).settings(
     scalaJSUseMainModuleInitializer := true,
     libraryDependencies ++= Seq(
         "org.scala-js" %%% "scalajs-dom" % "1.2.0",
+        "com.lihaoyi" %%% "scalatags" % "0.9.4",
         "io.circe" %%% "circe-core" % "0.14.1",
         "io.circe" %%% "circe-generic" % "0.14.1",
         "io.circe" %%% "circe-parser" % "0.14.1",
     )
-).enablePlugins(ScalaJSWeb)
+).enablePlugins(ScalaJSPlugin, ScalaJSWeb)
     .dependsOn(sharedJs)
 
 lazy val shared = crossProject(JSPlatform, JVMPlatform)

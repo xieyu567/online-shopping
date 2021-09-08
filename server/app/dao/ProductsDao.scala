@@ -1,10 +1,10 @@
 package dao
 
-import models.{Cart, CartKey, Product, ProductInCart}
+import com.effe.shopping.shared.{Cart, CartKey, Product, ProductInCart}
 import play.api.db.slick.{DatabaseConfigProvider, HasDatabaseConfigProvider}
 import slick.jdbc.JdbcProfile
-import javax.inject.Inject
 
+import javax.inject.Inject
 import scala.concurrent.{ExecutionContext, Future}
 
 class ProductDao @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)
