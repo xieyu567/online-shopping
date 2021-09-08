@@ -42,5 +42,5 @@ case class CartLine(qty: Int, product: Product) {
 
     private def getProductLabel: Label = label(product.name).render
 
-    private def getPriceLabel = label(product.price).render
+    private def getPriceLabel: Label = label(product.price).render
 }
