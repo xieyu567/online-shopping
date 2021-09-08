@@ -8,6 +8,8 @@ addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.8.8")
 
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.7.0")
 
+addSbtPlugin("org.scala-js" % "sbt-jsdependencies" % "1.0.2")
+
 addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.2.0")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-gzip" % "1.0.2")

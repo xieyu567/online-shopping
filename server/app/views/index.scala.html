@@ -1,9 +1,14 @@
 @(message: String)
 
 @main("Play with Scala.js") {
-<h2>Play and Scala.js share a same message</h2>
-<ul>
-  <li>Play shouts out: <em>@message</em></li>
-  <li>Scala.js shouts out: <em id="scalajsShoutOut"></em></li>
-</ul>
+<body>
+  <div class="container">
+    <div class="row">
+      <div id="productPanel" class="col-8">
+        <div id="products" class="row"></div>
+      </div>
+      <div id="cartPanel" class="col-4"></div>
+    </div>
+  </div>
+</body>
 }

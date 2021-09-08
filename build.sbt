@@ -31,13 +31,18 @@ lazy val server = (project in file("server")).settings(commonSettings).settings(
 lazy val client = (project in file("client")).settings(commonSettings).settings(
     scalaJSUseMainModuleInitializer := true,
     libraryDependencies ++= Seq(
-        "org.scala-js" %%% "scalajs-dom" % "1.2.0",
+        "org.scala-js" %%% "scalajs-dom" % "1.1.0",
         "com.lihaoyi" %%% "scalatags" % "0.9.4",
+        "org.querki" %%% "jquery-facade" % "2.0",
         "io.circe" %%% "circe-core" % "0.14.1",
         "io.circe" %%% "circe-generic" % "0.14.1",
         "io.circe" %%% "circe-parser" % "0.14.1",
+    ),
+    jsDependencies ++= Seq(
+        "org.webjars" % "jquery" % "3.6.0" / "jquery.js" minified "jquery.min.js",
+        "org.webjars" % "notifyjs" % "0.4.2" / "notify.js"
     )
-).enablePlugins(ScalaJSPlugin, ScalaJSWeb)
+).enablePlugins(ScalaJSPlugin, ScalaJSWeb, JSDependenciesPlugin)
     .dependsOn(sharedJs)
 
 lazy val shared = crossProject(JSPlatform, JVMPlatform)
