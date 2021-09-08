@@ -12,7 +12,7 @@ import scala.util.{Random, Try}
 object UIManager {
     val origin: UndefOr[String] = dom.document.location.origin
     val cart: CartDiv = CartDiv(Set.empty[CartLine])
-//    val webSocket = getWebSocket
+    //    val webSocket = getWebSocket
     val dummyUserName: String = s"user-${Random.nextInt(1000)}"
 
     def main(args: Array[String]): Unit = {

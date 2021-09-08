@@ -1,6 +1,7 @@
 package com.effe.shopping
 
 import com.effe.shopping.shared.Product
+import org.querki.jquery.JQueryDeferred
 import org.scalajs.dom.html.{Button, Div}
 import scalatags.JsDom
 import scalatags.JsDom.all._
@@ -20,5 +21,5 @@ case class ProductDiv(product: Product) {
         onclick := addToCart
     )("Add to Cart")
 
-    private def addToCart(): () => Any = () => UIManager.addOneProduct(product)
+    private def addToCart(): () => JQueryDeferred = () => UIManager.addOneProduct(product)
 }

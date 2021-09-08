@@ -110,3 +110,17 @@
 2021-09-08 22:31:44,582 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
 2021-09-08 22:31:44,584 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
 2021-09-08 22:31:44,592 [play-dev-mode-akka.actor.internal-dispatcher-34] [play.core.server.AkkaHttpServer]  INFO - Running provided shutdown stop hooks
+2021-09-08 22:55:54,450 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-08 22:55:54,955 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-08 22:55:54,966 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-08 22:55:55,147 [ScalaTest-run] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger: starting initialization
+2021-09-08 22:55:55,234 [ScalaTest-run] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger: initialization done
+2021-09-08 22:55:55,932 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-08 22:55:55,934 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.
+2021-09-08 22:56:50,085 [application-akka.actor.default-dispatcher-5] [akka.event.slf4j.Slf4jLogger$$anonfun$receive$1]  INFO - Slf4jLogger started
+2021-09-08 22:56:50,559 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Starting...
+2021-09-08 22:56:50,567 [ScalaTest-run] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Start completed.
+2021-09-08 22:56:50,749 [ScalaTest-run] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger: starting initialization
+2021-09-08 22:56:50,825 [ScalaTest-run] [play.modules.swagger.SwaggerPluginImpl]  INFO - Swagger: initialization done
+2021-09-08 22:56:51,813 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown initiated...
+2021-09-08 22:56:51,816 [application-akka.actor.default-dispatcher-5] [com.zaxxer.hikari.HikariDataSource]  INFO - db - Shutdown completed.

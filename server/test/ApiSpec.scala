@@ -1,5 +1,3 @@
-import akka.http.scaladsl.model.HttpHeader.ParsingResult.Ok
-import com.effe.shopping.shared.Cart
 import io.circe.generic.auto.exportDecoder
 import io.circe.parser.decode
 import org.scalatest.concurrent.ScalaFutures
