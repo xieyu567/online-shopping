@@ -1,8 +1,9 @@
 package com.effe.shopping
 
 import com.effe.shopping.shared.Product
+import org.querki.jquery.JQueryDeferred
 import org.scalajs.dom.html.{Button, Div, Input, Label}
-import scalatags.JsDom.all.{button, div, input, label}
+import scalatags.JsDom.all._
 
 case class CartDiv(lines: Set[CartLine]) {
     def content: Div = lines.foldLeft(div.render) { (a, b) =>
@@ -27,7 +28,7 @@ case class CartLine(qty: Int, product: Product) {
         `type` := "button",
         onclick := removeFromCart)("X").render
 
-    private def removeFromCart = ???
+    private def removeFromCart(): () => JQueryDeferred = () => UIManager.deleteProduct(product)
 
     private def getQuantityInput: Input = input(
         id := s"cart-${product.code}-qty",
@@ -37,7 +38,7 @@ case class CartLine(qty: Int, product: Product) {
         style := "width: 100%;"
     ).render
 
-    private def changeQty = ???
+    private def changeQty: () => JQueryDeferred = () => UIManager.updateProduct(product)
 
     private def getProductLabel: Label = label(product.name).render
 

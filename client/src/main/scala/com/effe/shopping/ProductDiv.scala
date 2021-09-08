@@ -2,9 +2,7 @@ package com.effe.shopping
 
 import com.effe.shopping.shared.Product
 import org.scalajs.dom.html.Div
-import scalatags.JsDom.all.{button, div, p}
-
-import javax.swing.UIManager
+import scalatags.JsDom.all._
 
 case class ProductDiv(product: Product) {
     def content: Div = div(`class` := "col")(getProductDescription, getButton).render
@@ -21,5 +19,5 @@ case class ProductDiv(product: Product) {
         onclick := addToCart
     )("Add to Cart")
 
-    private def addToCart() = () => UIManager.addOneProduct(product)
+    private def addToCart(): () => Any = () => UIManager.addOneProduct(product)
 }
