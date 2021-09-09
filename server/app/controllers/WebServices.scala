@@ -28,7 +28,7 @@ class WebServices @Inject()(cc: ControllerComponents, productDao: ProductDao, ca
     // Cart Controler //
     @ApiOperation(value = "List the product in the cart", consumes = "text/plain")
     @ApiResponses(Array(new ApiResponse(code = 200, message = "Product added"),
-        new ApiResponse(code = 400, message = "unauthorized, please login before to proceed"),
+        new ApiResponse(code = 401, message = "unauthorized, please login before to proceed"),
         new ApiResponse(code = 500, message = "Internal server error, database error")))
     def listCartProducts(): Action[AnyContent] = Action.async { request =>
         val userOption = request.session.get("user")

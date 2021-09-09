@@ -18,14 +18,14 @@ class ProductDao @Inject()(protected val dbConfigProvider: DatabaseConfigProvide
     def insert(product: Product): Future[Unit] =
         db.run(products += product).map(_ => ())
 
-    private class ProductsTable(tag: Tag) extends Table[Product](tag, "PRODUCTS") {
-        def name = column[String]("NAME")
+    private class ProductsTable(tag: Tag) extends Table[Product](tag, "products") {
+        def name = column[String]("name")
 
-        def code = column[String]("CODE")
+        def code = column[String]("code")
 
-        def description = column[String]("DESCRIPTION")
+        def description = column[String]("description")
 
-        def price = column[Int]("PRICE")
+        def price = column[Int]("price")
 
         override def * = (name, code, description, price) <> (Product.tupled, Product.unapply)
     }
@@ -60,12 +60,12 @@ class CartsDao @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)
 
     def all(): Future[Seq[Cart]] = db.run(carts.result)
 
-    private class CartsTable(tag: Tag) extends Table[Cart](tag, "CART") {
-        def user = column[String]("USER")
+    private class CartsTable(tag: Tag) extends Table[Cart](tag, "cart") {
+        def user = column[String]("user")
 
-        def productCode = column[String]("CODE")
+        def productCode = column[String]("code")
 
-        def quantity = column[Int]("QTY")
+        def quantity = column[Int]("qty")
 
         override def * = (user, productCode, quantity) <> (Cart.tupled, Cart.unapply)
     }

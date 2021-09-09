@@ -35,18 +35,18 @@ lazy val client = (project in file("client")).settings(commonSettings).settings(
         "io.circe" %%% "circe-generic" % "0.14.1",
         "io.circe" %%% "circe-parser" % "0.14.1",
     ),
-    jsDependencies ++= Seq(
-        "org.webjars" % "jquery" % "3.6.0" / "jquery.js" minified "jquery.min.js",
-        "org.webjars" % "notifyjs" % "0.4.2" / "notify.js"
+    Compile / npmDependencies ++= Seq(
+        "jquery" -> "3.6.0",
+        "notifyjs" -> "5.0.0"
     )
-).enablePlugins(ScalaJSPlugin, ScalaJSWeb, JSDependenciesPlugin)
+).enablePlugins(ScalaJSPlugin, ScalaJSWeb, ScalaJSBundlerPlugin)
     .dependsOn(sharedJs)
 
 lazy val shared = crossProject(JSPlatform, JVMPlatform)
     .crossType(CrossType.Pure)
     .in(file("shared"))
     .settings(commonSettings)
-    .jsConfigure(_.enablePlugins(JSDependenciesPlugin))
+    .jsConfigure(_.enablePlugins(ScalaJSBundlerPlugin))
 lazy val sharedJvm = shared.jvm
 lazy val sharedJs = shared.js
 
