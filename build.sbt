@@ -1,5 +1,3 @@
-import sbtcrossproject.CrossPlugin.autoImport.{crossProject, CrossType}
-
 lazy val server = (project in file("server")).settings(commonSettings).settings(
     scalaJSProjects := Seq(client),
     Assets / pipelineStages := Seq(scalaJSPipeline),
@@ -26,7 +24,6 @@ lazy val server = (project in file("server")).settings(commonSettings).settings(
 ).enablePlugins(PlayScala, SwaggerPlugin)
     .disablePlugins(PlayFilters)
     .dependsOn(sharedJvm)
-// Compile the project before generating Eclipse files, so that generated .scala or .class files for views and routes are present
 
 lazy val client = (project in file("client")).settings(commonSettings).settings(
     scalaJSUseMainModuleInitializer := true,
@@ -49,6 +46,7 @@ lazy val shared = crossProject(JSPlatform, JVMPlatform)
     .crossType(CrossType.Pure)
     .in(file("shared"))
     .settings(commonSettings)
+    .jsConfigure(_.enablePlugins(JSDependenciesPlugin))
 lazy val sharedJvm = shared.jvm
 lazy val sharedJs = shared.js
 

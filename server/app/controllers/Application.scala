@@ -1,14 +1,14 @@
 package controllers
 
 import javax.inject._
-import com.effe.shopping.shared.SharedMessages
+import play.api.libs.circe.Circe
 import play.api.mvc._
 
 @Singleton
-class Application @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
+class Application @Inject()(cc: ControllerComponents) extends AbstractController(cc) with Circe {
 
-  def index = Action {
-    Ok(views.html.index(SharedMessages.itWorks))
+  def index: Action[AnyContent] = Action {
+    Ok(views.html.index("Shopping Page"))
   }
 
 }

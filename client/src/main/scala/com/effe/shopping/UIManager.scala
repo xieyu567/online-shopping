@@ -15,6 +15,9 @@ object UIManager {
     //    val webSocket = getWebSocket
     val dummyUserName: String = s"user-${Random.nextInt(1000)}"
 
+    val failMessage: (JQueryXHR, String, String) => Unit = (xhr: JQueryXHR, textStatus: String, textError: String) =>
+    println(s"call failed: $textStatus with status code: ${xhr.status} $textError")
+
     def main(args: Array[String]): Unit = {
         val settings = JQueryAjaxSettings
             .url(s"$origin/v1/login")
@@ -34,8 +37,7 @@ object UIManager {
                     initCartUI(origin, seq)
                 }
             }
-        ).fail((xhr: JQueryXHR, textStatus: String, textError: String) =>
-            println(s"call failed: $textStatus with status code: ${xhr.status} $textError"))
+        ).fail(failMessage)
     }
 
     private def initCartUI(origin: UndefOr[String], products: Seq[Product]): JQueryDeferred = {
@@ -53,8 +55,7 @@ object UIManager {
                     }
                 }
             }
-        }).fail((xhr: JQueryXHR, textStatus: String, textError: String) =>
-            println(s"call failed: $textStatus with status code: ${xhr.status} $textError"))
+        }).fail(failMessage)
     }
 
     def addOneProduct(product: Product): JQueryDeferred = {
@@ -82,10 +83,10 @@ object UIManager {
             println(s"Product ${product.code} removed from the cart")
         }
 
-        deletefromCart(product.code, onDone)
+        deleteFromCart(product.code, onDone)
     }
 
-    private def deletefromCart(productCode: String, onDone: () => Unit): JQueryDeferred = {
+    private def deleteFromCart(productCode: String, onDone: () => Unit): JQueryDeferred = {
         val url = s"${UIManager.origin}/v1/cart/products/$productCode"
         $.ajax(JQueryAjaxSettings.url(url).method("DELETE")._result).done(onDone)
     }
