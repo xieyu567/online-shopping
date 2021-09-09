@@ -21,7 +21,7 @@ lazy val server = (project in file("server")).settings(commonSettings).settings(
         guice,
         "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % "test"
     )
-).enablePlugins(PlayScala, SwaggerPlugin)
+).enablePlugins(PlayScala, SwaggerPlugin, WebScalaJSBundlerPlugin)
     .disablePlugins(PlayFilters)
     .dependsOn(sharedJvm)
 
@@ -39,7 +39,7 @@ lazy val client = (project in file("client")).settings(commonSettings).settings(
         "jquery" -> "3.6.0",
         "notifyjs" -> "5.0.0"
     )
-).enablePlugins(ScalaJSPlugin, ScalaJSWeb, ScalaJSBundlerPlugin)
+).enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin) // ScalaJSWeb
     .dependsOn(sharedJs)
 
 lazy val shared = crossProject(JSPlatform, JVMPlatform)
