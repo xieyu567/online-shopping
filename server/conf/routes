@@ -18,6 +18,10 @@ PUT           /v1/cart/products/:id/quantity/:qty        controllers.WebServices
 # Login
 POST          /v1/login                                  controllers.WebServices.login()
 
+# Message
+### NoDocs ###
+GET           /v1/cart/events                            controllers.WebSockets.cartEventWS
+
 # Swagger
 ### NoDocs ###
 GET           /v1/swagger.json                           controllers.ApiHelpController.getResources

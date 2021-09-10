@@ -37,9 +37,9 @@ lazy val client = (project in file("client")).settings(commonSettings).settings(
     ),
     Compile / npmDependencies ++= Seq(
         "jquery" -> "3.6.0",
-        "notifyjs" -> "5.0.0"
+        "notifyjs" -> "3.0.0"
     )
-).enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin) // ScalaJSWeb
+).enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin)
     .dependsOn(sharedJs)
 
 lazy val shared = crossProject(JSPlatform, JVMPlatform)

@@ -1,10 +1,11 @@
 package com.effe.shopping
 
-import io.circe.parser.decode
+import com.effe.shopping.shared.{Add, Alarm, Cart, Product}
 import io.circe.generic.auto._
+import io.circe.parser.decode
 import org.querki.jquery.{$, JQueryAjaxSettings, JQueryDeferred, JQueryXHR}
 import org.scalajs.dom
-import com.effe.shopping.shared.{Cart, Product}
+import org.scalajs.dom.raw.{CloseEvent, Event, MessageEvent, WebSocket}
 
 import scala.scalajs.js.UndefOr
 import scala.util.{Random, Try}
@@ -12,7 +13,7 @@ import scala.util.{Random, Try}
 object UIManager {
     val origin: UndefOr[String] = dom.document.location.origin
     val cart: CartDiv = CartDiv(Set.empty[CartLine])
-    //    val webSocket = getWebSocket
+    val webSocket: WebSocket = getWebSocket
     val dummyUserName: String = s"user-${Random.nextInt(1000)}"
 
     val failMessage: (JQueryXHR, String, String) => Unit = (xhr: JQueryXHR, textStatus: String, textError: String) =>
@@ -107,4 +108,49 @@ object UIManager {
         $.ajax(JQueryAjaxSettings.url(url).method("PUT")._result).done()
     }
 
+    private def getWebSocket = {
+        val ws = new WebSocket(getWebSocketUri("/v1/cart/events"))
+
+        ws.onopen = { (event: Event) =>
+            println(s"webSocket.onOpen '${event.`type`}'")
+            event.preventDefault()
+        }
+
+        ws.onerror = { (event: Event) =>
+            System.err.println(s"webSocket.onError '${event.getClass}'")
+        }
+
+        ws.onmessage = { (event: MessageEvent) =>
+            println(s"[webSocket.onMessage] '${event.data.toString}'...")
+            val msg = decode[Alarm](event.data.toString)
+            msg match {
+                case Right(alarm) =>
+                    println(s"[webSocket.onMessage] Got alarm event: $alarm")
+                    notify(alarm)
+                case Left(e) =>
+                    println(s"[webSocket.onMessage] Got a unknown event: $msg")
+            }
+        }
+
+        ws.onclose = { (event: CloseEvent) =>
+            println(s"webSocket.onClose '${event.`type`}'")
+        }
+        ws
+    }
+
+    private def getWebSocketUri(context: String): String = {
+        val wsProtocol =
+            if (dom.document.location.protocol == "https:") "wss"
+            else "ws"
+
+        s"$wsProtocol://${dom.document.location.host}/$context"
+    }
+
+    private def notify(alarm: Alarm): Unit = {
+        val notifyClass = if (alarm.action == Add) "info" else "warn"
+        NotifyJS.notify(alarm.message, new Options {
+            className = notifyClass
+            globalPosition = "right bottom"
+        })
+    }
 }
